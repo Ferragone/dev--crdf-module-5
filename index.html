@@ -1,0 +1,1428 @@
+<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Fri Feb 07 2025 14:08:58 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="676056e94453a0e6fa37bfbd" data-wf-site="676056e94453a0e6fa37bfbb">
+<head>
+  <meta charset="utf-8">
+  <title>SCORM CRDF - Cybersecurity Module 5</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/crdf---cybersecurity--scorm-5.webflow.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Varela Round:400","Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic"]  }});</script>
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon">
+  <style>
+	@media (min-width: 479px) {
+  	.highlight-word:after{
+			content: url('https://cdn.prod.website-files.com/66d18917351d2bf73d084eea/66d1a5fd523c8aa9b7995c3b_h2_vector_bg.svg');
+      position: absolute;
+    	top: -20px;
+		}
+		.highlight-word-2:before{
+			content: url('https://cdn.prod.website-files.com/66d18917351d2bf73d084eea/66d1b275c792d2bde4d6a782_highlight_word_vector_2.svg');
+      position: absolute;
+    	top: -20px;
+   		left: -30px;
+		}
+		.highlight-word-3:after{
+			content: url('https://cdn.prod.website-files.com/66d18917351d2bf73d084eea/66d1a5fd523c8aa9b7995c3b_h2_vector_bg.svg');
+      position: absolute;
+    	top: -20px;
+		}
+  }
+</style>
+  <style>
+.dropdown_wrapper {
+  overflow-y: scroll !important;
+  overflow-x: hidden !important;
+  max-height: 800px; /* Задай нужную высоту */
+}
+.dropdown_wrapper::-webkit-scrollbar {
+  width: 10px;
+}
+.dropdown_wrapper::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.dropdown_wrapper::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+.dropdown_wrapper::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+</style>
+  <style>
+select.my-dropdown option:first-child {
+    display: none;
+}
+.w-dropdown-link{
+    border-radius: 8px;
+    background: white;
+}
+.w-dropdown-link:hover{
+	background: #522E92;
+      opacity: 100;
+}
+.fs-select_link-1-2.w--current{
+	  color: #E2C1F9;
+    background-color: white;
+}
+</style>
+  <script>
+document.addEventListener('DOMContentLoaded', function() {
+    var dropdowns = document.querySelectorAll('select.my-dropdown');
+    dropdowns.forEach(function(dropdown) {
+        dropdown.addEventListener('change', function() {
+            if (dropdown.selectedIndex === 0) {
+                dropdown.selectedIndex = -1;
+            }
+        });
+    });
+});
+</script>
+  <style>
+.w-slider-dot {
+  height: 12px;
+  width: 12px; 
+  transition: width 0.5s ease;
+}
+.w-slider-dot.w-active {
+  height: 12px;
+  width: 40px;!important
+}
+.w-slider-nav.w-round>div {
+  border-radius: 12px;
+  background: #522E92;
+}
+</style>
+</head>
+<body class="body">
+  <div class="media-block">
+    <div class="div-block-1306">
+      <div id="playBtn" class="play w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M19.7479 5.00005C21.1652 6.97029 22 9.38768 22 12C22 14.6124 21.1652 17.0298 19.7479 19M15.7453 8.00005C16.5362 9.13388 17 10.5128 17 12C17 13.4873 16.5362 14.8662 15.7453 16M9.63432 4.36573L6.46863 7.53142C6.29568 7.70437 6.2092 7.79085 6.10828 7.85269C6.01881 7.90752 5.92127 7.94792 5.81923 7.97242C5.70414 8.00005 5.58185 8.00005 5.33726 8.00005H3.6C3.03995 8.00005 2.75992 8.00005 2.54601 8.10904C2.35785 8.20492 2.20487 8.3579 2.10899 8.54606C2 8.75997 2 9.04 2 9.60005V14.4C2 14.9601 2 15.2401 2.10899 15.454C2.20487 15.6422 2.35785 15.7952 2.54601 15.8911C2.75992 16 3.03995 16 3.6 16H5.33726C5.58185 16 5.70414 16 5.81923 16.0277C5.92127 16.0522 6.01881 16.0926 6.10828 16.1474C6.2092 16.2093 6.29568 16.2957 6.46863 16.4687L9.63431 19.6344C10.0627 20.0627 10.2769 20.2769 10.4608 20.2914C10.6203 20.304 10.7763 20.2394 10.8802 20.1177C11 19.9774 11 19.6745 11 19.0687V4.93142C11 4.3256 11 4.0227 10.8802 3.88243C10.7763 3.76073 10.6203 3.69614 10.4608 3.7087C10.2769 3.72317 10.0627 3.93736 9.63432 4.36573Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg></div>
+      <div class="pause w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M22 9.00005L16 15M16 9.00005L22 15M9.63432 4.36573L6.46863 7.53142C6.29568 7.70437 6.2092 7.79085 6.10828 7.85269C6.01881 7.90752 5.92127 7.94792 5.81923 7.97242C5.70414 8.00005 5.58185 8.00005 5.33726 8.00005H3.6C3.03995 8.00005 2.75992 8.00005 2.54601 8.10904C2.35785 8.20492 2.20487 8.3579 2.10899 8.54606C2 8.75997 2 9.04 2 9.60005V14.4C2 14.9601 2 15.2401 2.10899 15.454C2.20487 15.6422 2.35785 15.7952 2.54601 15.8911C2.75992 16 3.03995 16 3.6 16H5.33726C5.58185 16 5.70414 16 5.81923 16.0277C5.92127 16.0522 6.01881 16.0926 6.10828 16.1474C6.2092 16.2093 6.29568 16.2957 6.46863 16.4687L9.63431 19.6344C10.0627 20.0627 10.2769 20.2769 10.4608 20.2914C10.6203 20.304 10.7763 20.2394 10.8802 20.1177C11 19.9774 11 19.6745 11 19.0687V4.93142C11 4.3256 11 4.0227 10.8802 3.88243C10.7763 3.76073 10.6203 3.69614 10.4608 3.7087C10.2769 3.72317 10.0627 3.93736 9.63432 4.36573Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg></div>
+      <div data-w-id="75475ad8-cb22-a49e-7c2d-ecf0054df63a" class="switch w-embed">
+        <div class="switch">
+          <audio id="myAudio" src="https://storage.googleapis.com/sharedsamples/crdf_audio/deep-ambient-version-60s-9889.mp3?raw=true"></audio>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-layout-blockcontainer wrapper w-container">
+    <div data-animation="over-left" data-collapse="all" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
+      <div class="container w-container">
+        <nav role="navigation" class="nav-menu w-nav-menu">
+          <div class="div-block-1359">
+            <div class="nav_menu_content">
+              <div id="menu-btn-1" data-w-id="35714176-9903-094f-e061-163b57f0ac41" class="menu_item_conteiner-2 title_block width-500px"><img width="12" loading="lazy" alt="" src="images/svgviewer-output.svg" class="icon_home">
+                <a href="#" class="menu_item w-nav-link">Модуль 5. Безпечне використання комп’ютерів і мобільних пристроїв</a>
+              </div>
+              <section data-w-id="35714176-9903-094f-e061-163b57f0ac45" class="menu_item_conteiner-2 border_bottom">
+                <div class="icon-3 w-icon-nav-menu"></div>
+                <a href="#" class="menu_item w-nav-link">Операційні системи та їхні налаштування безпеки</a>
+              </section>
+              <div data-w-id="35714176-9903-094f-e061-163b57f0ac49" class="menu_item_conteiner-2 border_bottom">
+                <div class="icon-3 w-icon-nav-menu"></div>
+                <a href="#" class="menu_item w-nav-link">Оновлення ОС та іншого ПЗ</a>
+              </div>
+              <div data-w-id="35714176-9903-094f-e061-163b57f0ac4d" class="menu_item_conteiner-2 border_bottom">
+                <div class="icon-3 w-icon-nav-menu"></div>
+                <a href="#" class="menu_item w-nav-link">Встановлення додатків і керування дозволами</a>
+              </div>
+              <div data-w-id="35714176-9903-094f-e061-163b57f0ac51" class="menu_item_conteiner-2 border_bottom">
+                <div class="icon-3 w-icon-nav-menu"></div>
+                <a href="#" class="menu_item w-nav-link">Уникнення шкідливого ПЗ</a>
+              </div>
+              <div data-w-id="35714176-9903-094f-e061-163b57f0ac55" class="menu_item_conteiner-2 border_bottom">
+                <div class="icon-3 w-icon-nav-menu"></div>
+                <a href="#" class="menu_item w-nav-link">Захист даних на пристроях</a>
+              </div>
+              <div data-w-id="35714176-9903-094f-e061-163b57f0ac59" class="menu_item_conteiner-2 border_bottom">
+                <div class="icon-3 w-icon-nav-menu"></div>
+                <a href="#" class="menu_item w-nav-link">Підсумки. Перевірте себе</a>
+              </div>
+              <div data-w-id="35714176-9903-094f-e061-163b57f0ac5d" class="menu_item_conteiner-2">
+                <div class="icon-3 w-icon-nav-menu"></div>
+                <a href="#" class="menu_item w-nav-link">Вихід</a>
+              </div>
+            </div>
+            <div class="menu_btn_close">
+              <a href="#" class="button w-button">X</a>
+            </div>
+          </div>
+        </nav>
+        <div class="menu-button w-nav-button">
+          <div class="icon-3 w-icon-nav-menu"></div>
+        </div>
+      </div>
+    </div>
+    <section id="Introduction_to_social_networks" class="main_section remove-padding content-section align-center section">
+      <div class="content-smaller-padding height-100 max-width-1300 gap-30-on-large padding-20">
+        <div class="div-block-4358 m-w-60"><img src="images/image_20.png" loading="lazy" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 96vw, (max-width: 1439px) 48vw, 1159.9957275390625px" srcset="images/image_20-p-500.png 500w, images/image_20-p-800.png 800w, images/image_20-p-1080.png 1080w, images/image_20.png 1160w" alt="" class="image-134"></div>
+        <div class="main-section__heading-block">
+          <h1 class="montserrat-900-50-60-95 main_section_color align-center">модуль 5. Безпечне використання комп’ютерів і мобільних пристроїв</h1>
+        </div>
+        <div class="div-block-4359-copy">
+          <div class="custome-list-wrapper max-w-50 gap-0">
+            <div class="custome-list">
+              <div class="custome-list-bullet"><img loading="lazy" src="images/main-bullet.svg" alt=""></div>
+              <div class="custome-list-text">
+                <p class="montserrat-800-32-39 capitalize text-align-left line-height-32">На які налаштування безпеки необхідно звернути увагу для різних операційних систем?</p>
+              </div>
+            </div>
+            <div class="custome-list">
+              <div class="custome-list-bullet"><img loading="lazy" src="images/main-bullet.svg" alt=""></div>
+              <div class="custome-list-text">
+                <p class="montserrat-800-32-39 capitalize text-align-left line-height-32">Як безпечно встановлювати додатки?</p>
+              </div>
+            </div>
+          </div>
+          <div class="custome-list-wrapper max-w-50 gap-0">
+            <div class="custome-list">
+              <div class="custome-list-bullet"><img loading="lazy" src="images/main-bullet.svg" alt=""></div>
+              <div class="custome-list-text">
+                <p class="montserrat-800-32-39 capitalize text-align-left line-height-32">Як захиститися від шкідливих програм?</p>
+              </div>
+            </div>
+            <div class="custome-list">
+              <div class="custome-list-bullet"><img loading="lazy" src="images/main-bullet.svg" alt=""></div>
+              <div class="custome-list-text">
+                <p class="montserrat-800-32-39 capitalize text-align-left line-height-32">Як захистити особисту інформацію та ефективно використовувати основні інструменти безпеки?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="link-block w-inline-block"><img src="images/chevron-down-double.svg" loading="lazy" alt="">
+          <div>Використовуйте скрол</div>
+        </a>
+      </div>
+    </section>
+    <section id="M5-Item-1" class="img-text_section remove-padding section">
+      <div class="img-text revert _100vh">
+        <div class="div-block-1367"><img src="images/image_11.png" loading="lazy" alt="" class="img-text__img"></div>
+        <div class="img-text__text-block gap-24 overflow-visible">
+          <h2 class="montserrat-800-32-39 capitalize"><span class="highlight-word-2">Операційна система</span> (ОС)</h2>
+          <p class="montserrat-500-22-30 _2b0a64">це базове програмне забезпечення, яке керує апаратними ресурсами комп&#x27;ютера або мобільного пристрою, забезпечує платформу для запуску програм і надає інтерфейс для взаємодії користувача з пристроєм</p>
+          <div class="div-block-1366">
+            <div>Windows</div>
+            <div>macOs</div>
+            <div>Android</div>
+            <div>iOS</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="slider_section position-relative section">
+      <div class="intro-content">
+        <p class="montserrat-500-22-30 _2b0a64 text-align-center">Налаштування безпеки в операційних системах допомагають захистити дані користувачів та забезпечити безпечне використання пристроїв</p>
+        <p class="montserrat-700-22-30 _2b0a64 text-align-center">Загальні налаштування безпеки в операційних системах</p>
+      </div>
+      <div class="slider-div-block">
+        <div data-delay="4000" data-animation="slide" class="slider height-auto w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
+          <div class="mask w-slider-mask">
+            <div class="slide w-slide">
+              <div class="slide_content align-left height-auto">
+                <h3 class="montserrat-800-32-39 uppercase align-center align-strech">Облікові записи користувачів</h3>
+                <ul role="list" class="montserrat-500-22-30 _2b0a64">
+                  <li>Різні рівні доступу для адміністраторів і звичайних користувачів</li>
+                  <li>Можливість створення, видалення та налаштування облікових записів з різними правами доступу</li>
+                </ul>
+              </div>
+            </div>
+            <div class="slide w-slide">
+              <div class="slide_content align-left height-auto">
+                <h3 class="montserrat-800-32-39 uppercase align-center align-strech">Політика паролів</h3>
+                <ul role="list" class="montserrat-500-22-30 _2b0a64">
+                  <li>Вимоги до складності паролів (мінімальна довжина, використання великих і малих літер, цифр і спеціальних символів)</li>
+                  <li>Регулярна зміна паролів і заборона використання старих паролів</li>
+                  <li>Відстеження спроб входу та блокування облікового запису після кількох невдалих спроб</li>
+                </ul>
+              </div>
+            </div>
+            <div class="slide w-slide">
+              <div class="slide_content align-left height-auto">
+                <h3 class="montserrat-800-32-39 uppercase align-center align-strech">Шифрування даних</h3>
+                <ul role="list" class="montserrat-500-22-30 _2b0a64">
+                  <li>Шифрування дисків і файлів для захисту від несанкціонованого доступу</li>
+                  <li>Використання шифрування під час передавання даних у мережі (HTTPS, VPN тощо)</li>
+                </ul>
+              </div>
+            </div>
+            <div class="slide w-slide">
+              <div class="slide_content align-left height-auto">
+                <h3 class="montserrat-800-32-39 uppercase align-center align-strech">Антивірусне ПЗ</h3>
+                <ul role="list" class="montserrat-500-22-30 _2b0a64">
+                  <li>Інтеграція з антивірусними програмами для захисту від шкідливих програм</li>
+                  <li>Регулярні оновлення антивірусних баз</li>
+                </ul>
+              </div>
+            </div>
+            <div class="slide w-slide">
+              <div class="slide_content align-left height-auto">
+                <h3 class="montserrat-800-32-39 uppercase align-center align-strech">Оновлення системи</h3>
+                <ul role="list" class="montserrat-500-22-30 _2b0a64">
+                  <li>Автоматичне завантаження та встановлення оновлень безпеки</li>
+                  <li>Ручне налаштування та контроль за оновленнями</li>
+                </ul>
+              </div>
+            </div>
+            <div class="slide w-slide">
+              <div class="slide_content align-left height-auto">
+                <h3 class="montserrat-800-32-39 uppercase align-center align-strech">Брандмауер (Firewall)</h3>
+                <ul role="list" class="montserrat-500-22-30 _2b0a64">
+                  <li>Контроль вхідного та вихідного трафіку щоб запобігти несанкціонованому доступу</li>
+                  <li>Налаштування правил брандмауера для різних типів мережевих з&#x27;єднань</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="left-arrow w-slider-arrow-left">
+            <div class="icon w-icon-slider-left"></div>
+          </div>
+          <div class="right-arrow w-slider-arrow-right">
+            <div class="icon-2 w-icon-slider-right"></div>
+          </div>
+          <div class="slide-nav w-slider-nav w-slider-nav-invert w-round"></div>
+        </div>
+      </div><img src="images/images-1.png" loading="lazy" alt="" class="m5s3-img">
+    </section>
+    <section class="section-text-on-white-list section">
+      <div class="text-on-white">
+        <div class="div-block-45 remove-bg-color height-auton"><img src="images/bg_image.png" loading="lazy" sizes="(max-width: 479px) 459.1826477050781px, (max-width: 767px) 97vw, (max-width: 991px) 720.0000610351562px, (max-width: 1439px) 73vw, (max-width: 1919px) 70vw, 55vw" srcset="images/bg_image-p-500.png 500w, images/bg_image-p-800.png 800w, images/bg_image-p-1080.png 1080w, images/bg_image.png 1160w" alt="" class="image-116">
+          <div class="div-block-1347 max-w-80 gap-64">
+            <h2 class="montserrat-800-32-39 uppercase align-center color-2b0a64">Спеціальні налаштування безпеки для різних ОС</h2>
+            <div class="div-block-1368">
+              <a id="m5_slide4_btn_1" href="#" class="m5s4-btns w-node-_35714176-9903-094f-e061-163b57f0acef-fa37bfbd w-button">macOS</a>
+              <a id="m5_slide4_btn_2" href="#" class="m5s4-btns w-node-_35714176-9903-094f-e061-163b57f0acf1-fa37bfbd w-button">iOS</a>
+              <a id="m5_slide4_btn_3" href="#" class="m5s4-btns w-node-_35714176-9903-094f-e061-163b57f0acf3-fa37bfbd w-button">Windows</a>
+              <a id="m5_slide4_btn_4" href="#" class="m5s4-btns w-node-_35714176-9903-094f-e061-163b57f0acf5-fa37bfbd w-button">Android</a>
+              <a id="w-node-_35714176-9903-094f-e061-163b57f0acf7-fa37bfbd" data-w-id="35714176-9903-094f-e061-163b57f0acf7" href="#m5s4-feedback-ID" class="m5s4-btns-mobile w-button">macOS</a>
+              <a id="w-node-_35714176-9903-094f-e061-163b57f0acf9-fa37bfbd" data-w-id="35714176-9903-094f-e061-163b57f0acf9" href="#m5s4-feedback-ID" class="m5s4-btns-mobile w-button">iOS</a>
+              <a id="w-node-_35714176-9903-094f-e061-163b57f0acfb-fa37bfbd" data-w-id="35714176-9903-094f-e061-163b57f0acfb" href="#m5s4-feedback-ID" class="m5s4-btns-mobile w-button">Windows</a>
+              <a id="w-node-_35714176-9903-094f-e061-163b57f0acfd-fa37bfbd" data-w-id="35714176-9903-094f-e061-163b57f0acfd" href="#m5s4-feedback-ID" class="m5s4-btns-mobile w-button">Android</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="m5s4-feedback-ID" class="m5s4-feedback">
+      <section class="m5s4-feedback-1">
+        <div class="img-text revert _100vh direction-vertical-on-small">
+          <div class="div-block-1367 align-left"><img src="images/m4s4-feedback-1.png" loading="lazy" sizes="100vw" srcset="images/m4s4-feedback-1-p-500.png 500w, images/m4s4-feedback-1.png 560w" alt="" class="img-text__img align-center hide-on-tablet"><img src="images/m5-slide5-1.png" loading="lazy" alt="" class="m5-slide5-1-tablet"></div>
+          <div class="img-text__text-block">
+            <h2 class="montserrat-800-32-39 capitalize"><span class="highlight-word-3 yellow">Windows</span> </h2>
+            <p class="montserrat-500-22-30 _2b0a64">операційна система, розроблена компанією Microsoft, є однією з найпоширеніших ОС для персональних комп&#x27;ютерів.</p>
+            <ul role="list" class="montserrat-500-22-30 _2b0a64">
+              <li>Можливість використання локальних облікових записів або облікових записів Microsoft для синхронізації налаштувань та доступу до хмарних сервісів.</li>
+              <li>Windows Hello: використання біометричних даних (відбитків пальців, розпізнавання обличчя) для входу в систему.</li>
+              <li>BitLocker: шифрування дисків для захисту даних від несанкціонованого доступу.</li>
+              <li>EFS (Encrypting File System): шифрування окремих файлів і папок.</li>
+              <li>Windows Defender Firewall: вбудований брандмауер для контролю мережевих з&#x27;єднань і захисту від загроз.</li>
+            </ul>
+            <a id="m5-slide5-back-btn-1" href="#" class="back-to-question w-button">Обрати інше</a>
+          </div>
+        </div>
+      </section>
+      <section class="m5s4-feedback-2">
+        <div class="img-text revert _100vh direction-vertical-on-small">
+          <div class="div-block-1367 align-left"><img src="images/m4s4-feedback-2.png" loading="lazy" sizes="100vw" srcset="images/m4s4-feedback-2-p-500.png 500w, images/m4s4-feedback-2.png 560w" alt="" class="img-text__img align-center hide-on-tablet"><img src="images/m5-slide5-2-tablet.png" loading="lazy" alt="" class="image-167"></div>
+          <div class="img-text__text-block">
+            <h2 class="montserrat-800-32-39 capitalize"><span class="highlight-word-3 yellow">macOS</span></h2>
+            <p class="montserrat-500-22-30 _2b0a64">операційна система для комп&#x27;ютерів Mac, розроблена компанією Apple. Має високий рівень захисту від вірусів і шкідливих програм.</p>
+            <ul role="list" class="montserrat-500-22-30 _2b0a64">
+              <li>iCloud облікові записи: синхронізація налаштувань і даних через iCloud.</li>
+              <li>Touch ID та Face ID: використання біометричних даних для входу в систему та підтвердження покупок.</li>
+              <li>FileVault: шифрування всього диска для захисту даних.</li>
+              <li>Keychain: захищене зберігання паролів і сертифікатів.</li>
+              <li>Вбудований брандмауер macOS: контроль вхідного та вихідного трафіку для захисту системи.</li>
+            </ul>
+            <a id="m5-slide5-back-btn-2" href="#" class="back-to-question w-button">Обрати інше</a>
+          </div>
+        </div>
+      </section>
+      <section class="m5s4-feedback-3">
+        <div class="img-text revert _100vh direction-vertical-on-small gap-20-mobile">
+          <div class="div-block-1367 width-40"><img src="images/m4s4-feedback-3.png" loading="lazy" sizes="100vw" srcset="images/m4s4-feedback-3-p-500.png 500w, images/m4s4-feedback-3.png 524w" alt="" class="img-text__img large-img-hide"><img src="images/m5-slide7-tablet.png" loading="lazy" sizes="100vw" srcset="images/m5-slide7-tablet-p-500.png 500w, images/m5-slide7-tablet.png 530w" alt="" class="image-163"></div>
+          <div class="img-text__text-block width-60">
+            <h2 class="montserrat-800-32-39 capitalize"><span class="highlight-word-3 yellow">iOS</span></h2>
+            <p class="montserrat-500-22-30 _2b0a64">операційна система розроблена компанією Apple, що використовується на смартфонах iPhone, планшетах iPad, розумних годинниках Apple Watch та інших пристроях Apple. Має високий рівень захисту даних користувачів та контроль доступу додатків. Високоякісний контроль додатків у App Store забезпечує надійність та безпеку програм.</p>
+            <ul role="list" class="montserrat-500-22-30 _2b0a64">
+              <li>Apple ID: синхронізація даних і налаштувань через обліковий запис Apple.</li>
+              <li>Можливість налаштування облікових записів для різних членів родини.</li>
+              <li>Використання паролів або PIN-кодів для розблокування пристрою.</li>
+              <li>Face ID та Touch ID: використання біометричних даних для розблокування пристрою та підтвердження покупок.</li>
+              <li>Шифрування всього диска для захисту даних.</li>
+              <li>iCloud Keychain: захищене зберігання паролів і сертифікатів.</li>
+              <li>Вбудовані функції для контролю мережевого трафіку та захисту даних.</li>
+            </ul>
+            <a id="m5-slide5-back-btn-3" href="#" class="back-to-question w-button">Обрати інше</a>
+          </div>
+        </div>
+      </section>
+      <section class="m5s4-feedback-4">
+        <div class="img-text revert _100vh direction-vertical-on-small gap-20-mobile">
+          <div class="div-block-1367 align-left"><img src="images/m4s4-feedback-4.png" loading="lazy" sizes="100vw" srcset="images/m4s4-feedback-4-p-500.png 500w, images/m4s4-feedback-4.png 560w" alt="" class="img-text__img align-center"><img src="images/m5-slide5-4-tablet.png" loading="lazy" alt="" class="image-166"></div>
+          <div class="img-text__text-block">
+            <h2 class="montserrat-800-32-39 capitalize"><span class="highlight-word-3 yellow">Android</span></h2>
+            <p class="montserrat-500-22-30 _2b0a64">операційна система для мобільних пристроїв, розроблена компанією Google, що дає можливість налаштування та модифікації системи виробниками пристроїв та розробниками.</p>
+            <ul role="list" class="montserrat-500-22-30 _2b0a64">
+              <li>Синхронізація даних і налаштувань через обліковий запис Google.</li>
+              <li>Використання паролів, PIN-кодів або малюнків для розблокування пристрою.</li>
+              <li>Використання відбитків пальців або розпізнавання обличчя для розблокування пристрою.</li>
+              <li>Шифрування всього диска для захисту даних.</li>
+              <li>Secure Folder: захищене місце для зберігання конфіденційних файлів і додатків.</li>
+              <li>Використання VPN та інших додатків для захисту мережевого трафіку.</li>
+            </ul>
+            <a id="m5-slide5-back-btn-4" href="#" class="back-to-question w-button">Обрати інше</a>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section id="m5-item-2" class="slider_section position-relative section">
+      <div class="intro-content gap-0">
+        <p class="montserrat-800-32-39 capitalize align-center-on-mobile">Оновлення ОС та іншого ПЗ на пристроях</p>
+        <p class="montserrat-500-22-30 dark-violet center">Чому оновлення є критично важливими?</p>
+      </div>
+      <div class="slider-div-block">
+        <div data-delay="4000" data-animation="slide" class="slider height-auto w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
+          <div class="mask w-slider-mask">
+            <div class="slide w-slide">
+              <div class="slide_content align-left height-auto">
+                <h3 class="montserrat-800-32-39 uppercase align-center align-strech">Виправлення вразливостей</h3>
+                <p class="montserrat-500-22-30 _2b0a64 text-align-center">Вразливості у ПЗ можуть бути виявлені як розробниками, так і зловмисниками. Останні використовують їх для атак на систему. Оновлення містять виправлення цих вразливостей, запобігаючи можливим загрозам.</p>
+              </div>
+            </div>
+            <div class="slide w-slide">
+              <div class="slide_content align-left height-auto">
+                <h3 class="montserrat-800-32-39 uppercase align-center align-strech">Покращення функціональності</h3>
+                <p class="montserrat-500-22-30 _2b0a64 text-align-center">Оновлення ПЗ також додають нові функції, покращуючи загальну продуктивність та користувацький досвід.</p>
+              </div>
+            </div>
+            <div class="slide w-slide">
+              <div class="slide_content align-left height-auto">
+                <h3 class="montserrat-800-32-39 uppercase align-center align-strech">Забезпечення сумісності</h3>
+                <p class="montserrat-500-22-30 _2b0a64 text-align-center">Регулярні оновлення допомагають зберігати сумісність ПЗ з новими технологіями та іншими програмами, що забезпечує безперебійну роботу системи.</p>
+              </div>
+            </div>
+            <div class="slide w-slide">
+              <div class="slide_content align-left height-auto">
+                <h3 class="montserrat-800-32-39 uppercase align-center align-strech">Захист від шкідливого ПЗ</h3>
+                <p class="montserrat-500-22-30 _2b0a64 text-align-center">Оновлення містять нові бази даних загроз, що дозволяє антивірусному програмному забезпеченню виявляти та блокувати нові типи шкідливого ПЗ.</p>
+              </div>
+            </div>
+          </div>
+          <div class="left-arrow w-slider-arrow-left">
+            <div class="icon w-icon-slider-left"></div>
+          </div>
+          <div class="right-arrow w-slider-arrow-right">
+            <div class="icon-2 w-icon-slider-right"></div>
+          </div>
+          <div class="slide-nav w-slider-nav w-slider-nav-invert w-round"></div>
+        </div>
+      </div><img src="images/m5s5-1.png" loading="lazy" alt="" class="m5s5-img1"><img src="images/m5s5-2.png" loading="lazy" sizes="(max-width: 991px) 100vw, (max-width: 1919px) 20vw, 24vw" srcset="images/m5s5-2-p-500.png 500w, images/m5s5-2.png 600w" alt="" class="m5s5-img2">
+    </section>
+    <section id="Collection_and_sharing_of_data_in_social_networks" class="dropdown_section position-relative align-top-on-mobile section">
+      <div class="dropdown_wrapper smaller-gap">
+        <div class="div-block-17-copy gap-15 show">
+          <h2 class="montserrat-800-32-39 uppercase">Як перевіряти та встановлювати оновлення на різних операційних системах?</h2>
+          <p class="montserrat-700-22-30 dark_violet">Оновлення можуть бути доступні для завантаження вручну або автоматично через систему оновлень</p>
+        </div>
+        <div data-hover="false" data-delay="0" data-w-id="35714176-9903-094f-e061-163b57f0ad8e" style="height:94px;color:rgb(82,46,146)" class="dropdown larger w-dropdown">
+          <div class="dropdown_toggle w-dropdown-toggle">
+            <div><strong>Windows</strong></div>
+          </div>
+          <nav class="dropdown-list w-dropdown-list">
+            <div class="div-block-1346">
+              <ul role="list" class="montserrat-500-22-30 _2b0a64">
+                <li>Перейдіть до <strong>&quot;</strong><span class="montserrat-700-22-30">Пуск &gt; Налаштування &gt; Оновлення та безпека &gt; Центр оновлення Windows<strong>&quot;</strong>.</span></li>
+                <li>Натисніть перевірити наявність оновлень для ручної перевірки.</li>
+                <li>Або переконайтеся, що опція “Завантажувати та встановлювати оновлення автоматично” увімкнена.</li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div data-hover="false" data-delay="0" data-w-id="35714176-9903-094f-e061-163b57f0ada3" style="height:94px;color:rgb(82,46,146)" class="dropdown larger w-dropdown">
+          <div class="dropdown_toggle w-dropdown-toggle">
+            <div><strong>macOS</strong></div>
+          </div>
+          <nav class="dropdown-list w-dropdown-list">
+            <div class="div-block-1346">
+              <ul role="list" class="montserrat-500-22-30 _2b0a64">
+                <li>Відкрийте &quot;<span class="montserrat-700-22-30">Системні налаштування &gt; Оновлення ПЗ</span>&quot;.</li>
+                <li>Натисніть &quot;Перевірити наявність оновлень&quot;.</li>
+                <li>Або встановіть галочку поруч із &quot;Автоматично перевіряти оновлення&quot;, &quot;Завантажувати нові оновлення за наявності&quot; та інші відповідні опції.</li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div data-hover="false" data-delay="0" data-w-id="35714176-9903-094f-e061-163b57f0adb4" style="height:94px;color:rgb(82,46,146)" class="dropdown larger w-dropdown">
+          <div class="dropdown_toggle w-dropdown-toggle">
+            <div><strong>Android</strong></div>
+          </div>
+          <nav class="dropdown-list w-dropdown-list">
+            <div class="div-block-1346">
+              <ul role="list" class="montserrat-500-22-30 _2b0a64">
+                <li>Відкрийте &quot;<span class="montserrat-700-22-30">Налаштування &gt; Система &gt; Оновлення системи</span>&quot;.</li>
+                <li>Натисніть &quot;Перевірити наявність оновлень&quot;.</li>
+                <li>Або увімкніть опцію &quot;Автоматичні оновлення&quot; або &quot;Завантажувати оновлення автоматично&quot;.</li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div data-hover="false" data-delay="0" data-w-id="35714176-9903-094f-e061-163b57f0adc5" style="height:94px;color:rgb(82,46,146)" class="dropdown larger w-dropdown">
+          <div class="dropdown_toggle w-dropdown-toggle">
+            <div><strong>iOS</strong></div>
+          </div>
+          <nav class="dropdown-list w-dropdown-list">
+            <div class="div-block-1346">
+              <ul role="list" class="montserrat-500-22-30 _2b0a64">
+                <li>Відкрийте &quot;<span class="montserrat-700-22-30">Налаштування &gt; Основні &gt; Оновлення ПЗ</span>&quot;.</li>
+                <li>Натисніть &quot;Перевірити наявність оновлень&quot;.</li>
+                <li>Або натисніть &quot;Автоматичні оновлення&quot; та увімкніть опції &quot;Завантаження оновлень iOS&quot; та &quot;Інсталяція оновлень iOS&quot;.</li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div><img src="images/m5s6-1.png" loading="lazy" sizes="(max-width: 991px) 100vw, (max-width: 1279px) 19vw, (max-width: 1919px) 20vw, 24vw" srcset="images/m5s6-1-p-500.png 500w, images/m5s6-1.png 553w" alt="" class="m5-s6-1"><img src="images/m5s6-2.png" loading="lazy" alt="" class="m5-s6-2">
+    </section>
+    <section id="m5-item-3" class="section-text-on-white-list section">
+      <div class="text-on-white">
+        <div class="div-block-45">
+          <div class="div-block-1347">
+            <h2 class="montserrat-800-32-39 uppercase align-center">Безпечне встановлення додатків на пристрої</h2>
+          </div>
+        </div><img src="images/m5s7-1.png" loading="lazy" alt="" class="m5-slide7-1"><img src="images/m5s7-2.png" loading="lazy" alt="" class="m5-slide7-2">
+      </div>
+    </section>
+    <section class="timeline-section position-relative align-top section"><img src="images/imageobject_3.png" loading="lazy" sizes="(max-width: 991px) 100vw, (max-width: 1439px) 20vw, 25vw" srcset="images/imageobject_3-p-500.png 500w, images/imageobject_3.png 596w" alt="" class="m5-s8-img">
+      <div class="div-block-27 remove-padding">
+        <div class="intro hide-block">
+          <h2 class="montserrat-800-32-39 capitalize align-text-center-max-width-550px"><span class="highlight-word-2">соціальні мережі – </span>онлайн-платформи, які...</h2>
+        </div>
+        <div class="timeline-items">
+          <p class="montserrat-500-22-30 _2b0a64">Перевірте, <span class="montserrat-700-22-30">які дозволи запитує додаток</span>. Будьте обережні з додатками, які вимагають доступу до великої кількості конфіденційних даних. Ознайомтеся з <span class="montserrat-700-22-30">політикою конфіденційності</span> додатку, щоб зрозуміти, як ваші дані будуть використовуватися та захищатися.</p>
+        </div>
+        <div class="line"></div>
+        <div data-w-id="35714176-9903-094f-e061-163b57f0adf2" style="opacity:0" class="timeline-items">
+          <p class="montserrat-500-22-30 _2b0a64">Регулярно <span class="montserrat-700-22-30">оновлюйте додатки до останніх версій</span>, оскільки розробники часто виправляють у них вразливості та покращують безпеку.</p>
+        </div>
+        <div data-w-id="35714176-9903-094f-e061-163b57f0adf8" style="opacity:0" class="line"></div>
+        <div data-w-id="35714176-9903-094f-e061-163b57f0adf9" style="opacity:0" class="timeline-items">
+          <p class="montserrat-500-22-30 _2b0a64">Використовуйте тільки <span class="montserrat-700-22-30">офіційні магазини додатків</span> (Google Play Store, Apple App Store, Microsoft Store, Mac App Store), оскільки вони проводять перевірки безпеки та якості додатків перед публікацією.</p>
+        </div>
+        <div data-w-id="35714176-9903-094f-e061-163b57f0adff" style="opacity:0" class="line"></div>
+        <div data-w-id="35714176-9903-094f-e061-163b57f0ae00" style="opacity:0" class="timeline-items">
+          <p class="montserrat-500-22-30 _2b0a64">Читайте <span class="montserrat-700-22-30">відгуки та оцінки інших користувачів</span>, щоб дізнатися про досвід використання додатку. Низькі рейтинги та негативні відгуки можуть бути ознакою проблем з безпекою або функціональністю.</p>
+        </div>
+      </div>
+    </section>
+    <section class="section-text-on-white-list section">
+      <div class="text-on-white">
+        <div class="div-block-45">
+          <div class="div-block-1347 max-w-90 gap-20">
+            <h2 class="montserrat-800-32-39 uppercase align-center">Як керувати дозволами для додатків на різних платформах?</h2>
+            <p class="montserrat-500-22-30 dark-violet center">Завдяки цьому ви зможете обмежити доступ додатків до конфіденційних даних</p>
+          </div>
+        </div><img src="images/m5-s9-img1.png" loading="lazy" alt="" class="m5-slide9-1"><img src="images/m5-s9-img2.png" loading="lazy" sizes="(max-width: 479px) 143.7391357421875px, (max-width: 991px) 30vw, (max-width: 1919px) 20vw, 25vw" srcset="images/m5-s9-img2-p-500.png 500w, images/m5-s9-img2.png 640w" alt="" class="m5-slide9-2">
+      </div>
+    </section>
+    <section class="img-text_section remove-padding section">
+      <div class="img-text hightlight-fix">
+        <div class="div-block-1367 padding-left-right additional-padding"><img src="images/image_14.png" loading="lazy" sizes="(max-width: 991px) 100vw, (max-width: 1439px) 559.9956665039062px, 579.9913330078125px" srcset="images/image_14-p-500.png 500w, images/image_14.png 720w" alt="" class="img-text__img align-center hide-on-tablet"><img src="images/m5-slide14-tablet.png" loading="lazy" sizes="(max-width: 767px) 96vw, (max-width: 991px) 513.0000610351562px, 100vw" srcset="images/m5-slide14-tablet-p-500.png 500w, images/m5-slide14-tablet.png 513w" alt="" class="image-164"></div>
+        <div class="img-text__text-block additional-padding">
+          <h2 class="montserrat-800-32-39 capitalize"><span> </span>1.</h2>
+          <p class="montserrat-500-22-30 _2b0a64">Перед встановленням додатку перегляньте список дозволів, які він запитує, та переконайтеся, що вони відповідають функціональності додатку.</p><img src="images/vector.svg" loading="lazy" alt="" class="image-117">
+        </div>
+      </div>
+    </section>
+    <section id="Collection_and_sharing_of_data_in_social_networks" class="dropdown_section position-relative section">
+      <div class="dropdown_wrapper">
+        <div class="div-block-1370">
+          <div class="div-block-1369">
+            <h2 class="montserrat-800-32-39 uppercase">2.</h2><img src="images/highlight_word_vector_2.svg" loading="lazy" alt="" class="image-118">
+          </div>
+          <div class="div-block-17-copy">
+            <p class="montserrat-500-22-30 _2b0a64">Перейдіть до керування дозволами для додатків:</p>
+          </div>
+        </div>
+        <div data-hover="false" data-delay="0" data-w-id="35714176-9903-094f-e061-163b57f0ae27" style="height:94px;color:rgb(82,46,146)" class="dropdown w-dropdown">
+          <div class="dropdown_toggle w-dropdown-toggle">
+            <div class="text-block-45"><strong>для пристроїв на ОС Windows</strong></div>
+          </div>
+          <nav class="dropdown-list w-dropdown-list">
+            <div class="div-block-1346">
+              <p class="montserrat-500-22-30">Перейдіть до <span class="montserrat-700-22-30">&quot;Налаштування &gt; Конфіденційність&quot;</span>. Тут ви можете керувати дозволами для доступу до конфіденційних даних (камера, мікрофон, місцезнаходження) для кожного додатку.</p>
+            </div>
+          </nav>
+        </div>
+        <div data-hover="false" data-delay="0" data-w-id="35714176-9903-094f-e061-163b57f0ae33" style="height:94px;color:rgb(82,46,146)" class="dropdown w-dropdown">
+          <div class="dropdown_toggle w-dropdown-toggle">
+            <div><strong>для пристроїв на macOS</strong></div>
+          </div>
+          <nav class="dropdown-list w-dropdown-list">
+            <div class="div-block-1346">
+              <p class="montserrat-500-22-30 _2b0a64">Перейдіть до <span class="montserrat-700-22-30">&quot;Системні налаштування &gt; Безпека та конфіденційність &gt; Конфіденційність&quot;</span>. Тут ви можете керувати дозволами для доступу до конфіденційних даних  для кожного додатку.</p>
+            </div>
+          </nav>
+        </div>
+        <div data-hover="false" data-delay="0" data-w-id="35714176-9903-094f-e061-163b57f0ae3f" style="height:94px;color:rgb(82,46,146)" class="dropdown w-dropdown">
+          <div class="dropdown_toggle w-dropdown-toggle">
+            <div><strong>для пристроїв на iOS</strong></div>
+          </div>
+          <nav class="dropdown-list w-dropdown-list">
+            <div class="div-block-1346">
+              <p class="montserrat-500-22-30 _2b0a64">Перейдіть до <span class="montserrat-700-22-30">&quot;Налаштування &gt; Конфіденційність&quot;</span>. Тут ви можете переглядати та змінювати дозволи для доступу до конфіденційних даних для кожного додатку.</p>
+            </div>
+          </nav>
+        </div>
+        <div data-hover="false" data-delay="0" data-w-id="35714176-9903-094f-e061-163b57f0ae4b" style="height:94px;color:rgb(82,46,146)" class="dropdown w-dropdown">
+          <div class="dropdown_toggle w-dropdown-toggle">
+            <div><strong>для пристроїв на Android</strong></div>
+          </div>
+          <nav class="dropdown-list w-dropdown-list">
+            <div class="div-block-1346">
+              <p class="montserrat-500-22-30 _2b0a64">Перейдіть до <span class="montserrat-700-22-30">&quot;Налаштування &gt; Програми &gt; Дозволи або Менеджер дозволів&quot;</span>. Тут ви можете переглядати та змінювати дозволи для кожного встановленого додатку.</p>
+            </div>
+          </nav>
+        </div>
+      </div><img src="images/m5-s9-img4.png" loading="lazy" alt="" class="m5-s9-img-4"><img src="images/m5-s9-img5.png" loading="lazy" sizes="(max-width: 991px) 100vw, (max-width: 1439px) 25vw, (max-width: 1919px) 20vw, 25vw" srcset="images/m5-s9-img5-p-500.png 500w, images/m5-s9-img5.png 613w" alt="" class="m5-s9-img-5">
+    </section>
+    <section class="img-text_section remove-padding section">
+      <div class="img-text _100vh revert-on-small align-bottom-small gap-40">
+        <div class="div-block-1367 height-60--small"><img src="images/image-1_8.png" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 859.9957275390625px, (max-width: 1439px) 559.9956665039062px, 579.9913330078125px" srcset="images/image-1_8-p-500.png 500w, images/image-1_8-p-800.png 800w, images/image-1_8.png 860w" alt="" class="img-text__img max-heignt-100 mobile"></div>
+        <div class="img-text__text-block max-w-590">
+          <h2 class="montserrat-800-32-39 capitalize">3.</h2>
+          <p class="montserrat-500-22-30 _2b0a64">Обмежте доступ додатків до конфіденційних даних, якщо це не є необхідним для їхнього функціонування.</p><img src="images/vector.svg" loading="lazy" alt="" class="image-117">
+        </div>
+      </div>
+    </section>
+    <section id="m5-item-4" class="img-text_section remove-padding section align-top">
+      <div class="img-text _100vh revert center-tablet-bottom-mobile image-top">
+        <div class="div-block-1367 align-left align-top tablet-height"><img src="images/m5-s10-img.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 991px) 529.9956665039062px, (max-width: 1439px) 559.9956665039062px, (max-width: 1919px) 579.9913330078125px, 590.0087280273438px" srcset="images/m5-s10-img-p-500.png 500w, images/m5-s10-img.png 763w" alt="" class="img-text__img align-center height show"></div>
+        <div class="img-text__text-block max-w-100">
+          <h2 class="montserrat-800-32-39 capitalize"><span class="highlight-word-2">Уникнення шкідливого</span> ПЗ на пристроях</h2>
+          <p class="montserrat-500-22-30 _2b0a64"><span class="montserrat-700-22-30">Шкідливе програмне забезпечення (malware)</span> – це будь-яке програмне забезпечення, створене з метою завдання шкоди комп&#x27;ютеру, мережам або користувачам</p>
+          <p class="montserrat-500-22-30 _2b0a64">До шкідливого ПЗ відносяться віруси, трояни, черв&#x27;яки, програми-вимагачі (ransomware), шпигунські програми (spyware) тощо</p>
+        </div>
+      </div>
+    </section>
+    <section id="Collection_and_sharing_of_data_in_social_networks" class="dropdown_section position-relative section">
+      <div class="dropdown_wrapper">
+        <div class="div-block-1370">
+          <div class="div-block-1369">
+            <h2 class="montserrat-800-32-39 uppercase">Потенційні ризики від шкідливого ПЗ</h2>
+          </div>
+          <div class="div-block-17-copy"></div>
+        </div>
+        <div data-hover="false" data-delay="0" data-w-id="35714176-9903-094f-e061-163b57f0ae79" style="height:94px;color:rgb(82,46,146)" class="dropdown w-dropdown">
+          <div class="dropdown_toggle w-dropdown-toggle">
+            <div><strong>Втрати даних</strong></div>
+          </div>
+          <nav class="dropdown-list w-dropdown-list">
+            <div class="div-block-1346">
+              <p class="montserrat-500-22-30">Шкідливі програми можуть видаляти або пошкоджувати файли, що призводить до втрати важливої інформації</p>
+            </div>
+          </nav>
+        </div>
+        <div data-hover="false" data-delay="0" data-w-id="35714176-9903-094f-e061-163b57f0ae82" style="height:94px;color:rgb(82,46,146)" class="dropdown w-dropdown">
+          <div class="dropdown_toggle w-dropdown-toggle">
+            <div><strong>Крадіжка особистих даних</strong></div>
+          </div>
+          <nav class="dropdown-list w-dropdown-list">
+            <div class="div-block-1346">
+              <p class="montserrat-500-22-30 _2b0a64">Програми-шпигуни можуть збирати особисту інформацію, як-от паролі, номери кредитних карток та інші конфіденційні дані</p>
+            </div>
+          </nav>
+        </div>
+        <div data-hover="false" data-delay="0" data-w-id="35714176-9903-094f-e061-163b57f0ae8b" style="height:94px;color:rgb(82,46,146)" class="dropdown w-dropdown">
+          <div class="dropdown_toggle w-dropdown-toggle">
+            <div><strong>Фінансові втрати</strong></div>
+          </div>
+          <nav class="dropdown-list w-dropdown-list">
+            <div class="div-block-1346">
+              <p class="montserrat-500-22-30 _2b0a64">Програми-вимагачі можуть заблокувати доступ до ваших даних або систем, вимагаючи викуп за їх розблокування</p>
+            </div>
+          </nav>
+        </div>
+        <div data-hover="false" data-delay="0" data-w-id="35714176-9903-094f-e061-163b57f0ae94" style="height:94px;color:rgb(82,46,146)" class="dropdown w-dropdown">
+          <div class="dropdown_toggle w-dropdown-toggle">
+            <div><strong>Компрометація системи</strong></div>
+          </div>
+          <nav class="dropdown-list w-dropdown-list">
+            <div class="div-block-1346">
+              <p class="montserrat-500-22-30 _2b0a64">Шкідливі програми можуть використовувати ваш комп&#x27;ютер для атаки на інші системи або для поширення шкідливого ПЗ</p>
+            </div>
+          </nav>
+        </div>
+        <div data-hover="false" data-delay="0" data-w-id="35714176-9903-094f-e061-163b57f0ae9d" style="height:94px;color:rgb(82,46,146)" class="dropdown w-dropdown">
+          <div class="dropdown_toggle w-dropdown-toggle">
+            <div><strong>Порушення конфіденційності</strong></div>
+          </div>
+          <nav class="dropdown-list w-dropdown-list">
+            <div class="div-block-1346">
+              <p class="montserrat-500-22-30 _2b0a64">Шкідливе ПЗ може надавати зловмисникам доступ до вашої системи, що дозволяє їм переглядати та використовувати вашу інформацію</p>
+            </div>
+          </nav>
+        </div>
+      </div><img src="images/m5-s11-img.png" loading="lazy" alt="" class="m5-s11-img">
+    </section>
+    <section class="section-text-on-white-list section">
+      <div class="text-on-white">
+        <div class="div-block-45">
+          <div class="div-block-1347 max-w-90 gap-20">
+            <h2 class="montserrat-800-32-39 uppercase align-center">Профілактичні заходи, що допоможутьуникнути загроз, пов’язаних із шкідливим ПЗ</h2>
+          </div>
+        </div><img src="images/m5-s12-img-1.png" loading="lazy" alt="" class="m5-slide12-1"><img src="images/m5-s12-img-2.png" loading="lazy" sizes="(max-width: 479px) 143.7391357421875px, (max-width: 991px) 30vw, (max-width: 1919px) 24vw, 25vw" srcset="images/m5-s12-img-2-p-500.png 500w, images/m5-s12-img-2.png 632w" alt="" class="m5-slide12-2">
+      </div>
+    </section>
+    <section id="Collection_and_sharing_of_data_in_social_networks" class="dropdown_section position-relative overflow-hidden section">
+      <div class="dropdown_wrapper">
+        <div class="div-block-1370 max-w-760px">
+          <div class="div-block-1369">
+            <h2 class="montserrat-800-32-39 uppercase">Оновлення програмного забезпечення</h2>
+          </div>
+          <div class="div-block-17-copy"></div>
+        </div>
+        <div data-hover="false" data-delay="0" data-w-id="35714176-9903-094f-e061-163b57f0aeb6" style="height:94px;color:rgb(82,46,146)" class="dropdown w-dropdown">
+          <div class="dropdown_toggle w-dropdown-toggle">
+            <div><strong>Автоматичні оновлення</strong></div>
+          </div>
+          <nav class="dropdown-list w-dropdown-list">
+            <div class="div-block-1346">
+              <p class="montserrat-500-22-30">Увімкніть автоматичні оновлення для вашої ОС та ПЗ. Це допоможе забезпечити своєчасне встановлення патчів безпеки.</p>
+              <p class="montserrat-500-22-30">Патч – це модифікація програмного коду, яка усуває вразливість. Це може бути зміна логіки програми, додавання перевірок безпеки або виправлення помилок коду.</p>
+            </div>
+          </nav>
+        </div>
+        <div data-hover="false" data-delay="0" data-w-id="35714176-9903-094f-e061-163b57f0aec1" style="height:94px;color:rgb(82,46,146)" class="dropdown w-dropdown">
+          <div class="dropdown_toggle w-dropdown-toggle">
+            <div><strong>Регулярні перевірки оновлень</strong></div>
+          </div>
+          <nav class="dropdown-list w-dropdown-list">
+            <div class="div-block-1346">
+              <p class="montserrat-500-22-30 _2b0a64">Регулярно перевіряйте наявність оновлень для програм, які не підтримують автоматичне оновлення, і встановлюйте їх.</p>
+            </div>
+          </nav>
+        </div>
+      </div><img src="images/m5-s12-img-3.png" loading="lazy" alt="" class="m5-s12-img-3"><img src="images/m5-s12-img-4.png" loading="lazy" alt="" class="m5-s12-img-4">
+    </section>
+    <section class="timeline-section position-relative align-top section"><img src="images/hand_1.png" loading="lazy" alt="" class="m5-s12-img5">
+      <div class="div-block-27 remove-padding">
+        <div class="intro">
+          <h2 class="montserrat-800-32-39 capitalize align-center">Уникнення підозрілих покликань <br>і вкладень електронної пошти</h2>
+        </div>
+        <div class="timeline-items padding-25-on-small-screen">
+          <p class="montserrat-700-22-30 _2b0a64 text-align-center">Перевірка покликань</p>
+        </div>
+        <div class="line _20px"></div>
+        <div data-w-id="35714176-9903-094f-e061-163b57f0aed8" style="opacity:0" class="timeline-items padding-25-on-small-screen">
+          <p class="montserrat-500-22-30 _2b0a64">Уникайте натискання на покликання у підозрілих повідомленнях, електронних листах або на вебсайтах. </p>
+          <p class="montserrat-500-22-30 _2b0a64">Наведіть курсор на покликання, щоб побачити його повний URL. Якщо адреса виглядає підозріло або відрізняється від очікуваної, не натискайте на нього.</p>
+        </div>
+        <div data-w-id="35714176-9903-094f-e061-163b57f0aedd" style="opacity:0" class="line _20px"></div>
+        <div data-w-id="35714176-9903-094f-e061-163b57f0aede" style="opacity:0" class="timeline-items padding-25-on-small-screen">
+          <p class="montserrat-700-22-30 _2b0a64 text-align-center">Сканування вкладень</p>
+        </div>
+        <div data-w-id="35714176-9903-094f-e061-163b57f0aee1" style="opacity:0" class="line _20px"></div>
+        <div data-w-id="35714176-9903-094f-e061-163b57f0aee2" style="opacity:0" class="timeline-items padding-25-on-small-screen">
+          <p class="montserrat-500-22-30 _2b0a64">Перед відкриттям вкладень скануйте їх за допомогою антивірусного програмного забезпечення.</p>
+          <p class="montserrat-500-22-30 _2b0a64">Не відкривайте вкладення, якщо вони здаються підозрілими або ви не очікували отримати їх. Це стосується особливо файлів з розширеннями .exe, .bat, .scr, .zip, .rar.</p>
+        </div>
+      </div>
+    </section>
+    <section class="timeline-section position-relative align-top section"><img src="images/imageobject_1.png" loading="lazy" sizes="(max-width: 991px) 100vw, (max-width: 1919px) 25vw, 27vw" srcset="images/imageobject_1-p-500.png 500w, images/imageobject_1.png 530w" alt="" class="m5-s12-img6">
+      <div class="div-block-27 remove-padding">
+        <div class="intro">
+          <h2 class="montserrat-800-32-39 capitalize align-text-center-max-width-550px">Використання антивірусного ПЗ</h2>
+        </div>
+        <div class="timeline-items">
+          <p class="montserrat-700-22-30 _2b0a64 text-align-center">Антивірусна програма</p>
+        </div>
+        <div class="line"></div>
+        <div data-w-id="35714176-9903-094f-e061-163b57f0aef1" style="opacity:0" class="timeline-items">
+          <p class="montserrat-500-22-30 _2b0a64">Антивірусне ПЗ (Norton, McAfee, Bitdefender тощо) сканує ваші файли та програми для виявлення шкідливого ПЗ. Воно використовує бази даних, що постійно оновлюються, для розпізнавання нових загроз. Антивірус ізолює вірус або інше шкідливе ПЗ, запобігаючи його поширенню або пошкодженню вашого пристрою.</p>
+        </div>
+        <div data-w-id="35714176-9903-094f-e061-163b57f0aef4" style="opacity:0" class="line"></div>
+        <div data-w-id="35714176-9903-094f-e061-163b57f0aef5" style="opacity:0" class="timeline-items">
+          <ul role="list" class="montserrat-500-22-30 _2b0a64">
+            <li>Встановіть антивірусне ПЗ на свій комп&#x27;ютер або мобільний пристрій.</li>
+            <li>Проводьте регулярне сканування системи на наявність вірусів та шкідливого ПЗ.</li>
+            <li>Регулярно оновлюйте антивірусні бази даних, щоб забезпечити захист від нових загроз.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="Responsible_distribution_of_content_in_social_networks" class="card-component section">
+      <div class="card-wrapper max-w-1057 align-center"><img src="images/bg_image_1.png" loading="lazy" sizes="(max-width: 1279px) 100vw, 1056.9913330078125px" srcset="images/bg_image_1-p-500.png 500w, images/bg_image_1-p-800.png 800w, images/bg_image_1.png 1057w" alt="" class="image-119">
+        <div class="card-intro-part">
+          <h3 class="montserrat-800-32-39 capitalize align-center">Використання брандмауера (Firewall)</h3>
+        </div>
+        <div class="cards _1-row">
+          <div data-w-id="35714176-9903-094f-e061-163b57f0af04" class="card-front---back _360-height">
+            <div data-w-id="35714176-9903-094f-e061-163b57f0af05" class="card-front"><img src="images/11.png" loading="lazy" alt="" class="card-front-img"><img src="images/card-hover-assets.png" loading="lazy" alt="" class="card-hover-assets"></div>
+            <div data-w-id="35714176-9903-094f-e061-163b57f0af08" class="card-back">
+              <div class="div-block-1358 align-center">
+                <h4 class="montserrat-700-22-30 _2b0a64 text-align-center"><strong>Увімкнення брандмауера</strong></h4>
+                <p class="montserrat-500-22-30 _2b0a64">Використовуйте вбудований брандмауер операційної системи або встановіть окремий брандмауер для захисту мережевих з&#x27;єднань.</p>
+              </div>
+            </div>
+          </div>
+          <div id="w-node-_35714176-9903-094f-e061-163b57f0af0f-fa37bfbd" data-w-id="35714176-9903-094f-e061-163b57f0af0f" class="card-front---back _360-height">
+            <div data-w-id="35714176-9903-094f-e061-163b57f0af10" class="card-front"><img src="images/image-2_5.png" loading="lazy" alt="" class="card-front-img"><img src="images/card-hover-assets.png" loading="lazy" alt="" class="card-hover-assets"></div>
+            <div data-w-id="35714176-9903-094f-e061-163b57f0af13" class="card-back">
+              <div class="div-block-1357 align-center">
+                <h4 class="montserrat-700-22-30 _2b0a64 text-align-center"><strong>Налаштування правил брандмауера</strong></h4>
+                <p class="montserrat-500-22-30 _2b0a64">Налаштуйте правила брандмауера для обмеження доступу до вашої системи з невідомих або підозрілих джерел.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-delay="4000" data-animation="slide" class="slider height-320 align-center block mobile-height w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="10" data-duration="500" data-infinite="true">
+          <div class="mask w-slider-mask">
+            <div class="slide w-slide">
+              <div class="flip-cards">
+                <div data-w-id="35714176-9903-094f-e061-163b57f0af1e" class="card-front---back _360-height">
+                  <div data-w-id="35714176-9903-094f-e061-163b57f0af1f" class="card-front"><img src="images/11.png" loading="lazy" alt="" class="card-front-img"><img src="images/card-hover-assets.png" loading="lazy" alt="" class="card-hover-assets"></div>
+                  <div data-w-id="35714176-9903-094f-e061-163b57f0af22" class="card-back">
+                    <div class="div-block-1358 align-center">
+                      <h4 class="montserrat-700-22-30 _2b0a64 text-align-center"><strong>Увімкнення брандмауера</strong></h4>
+                      <p class="montserrat-500-22-30 _2b0a64">Використовуйте вбудований брандмауер операційної системи або встановіть окремий брандмауер для захисту мережевих з&#x27;єднань.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slide w-slide">
+              <div class="flip-cards">
+                <div id="w-node-_35714176-9903-094f-e061-163b57f0af2b-fa37bfbd" data-w-id="35714176-9903-094f-e061-163b57f0af2b" class="card-front---back _360-height">
+                  <div data-w-id="35714176-9903-094f-e061-163b57f0af2c" class="card-front"><img src="images/image-2_5.png" loading="lazy" alt="" class="card-front-img"><img src="images/card-hover-assets.png" loading="lazy" alt="" class="card-hover-assets"></div>
+                  <div data-w-id="35714176-9903-094f-e061-163b57f0af2f" class="card-back">
+                    <div class="div-block-1357 align-center">
+                      <h4 class="montserrat-700-22-30 _2b0a64 text-align-center"><strong>Налаштування правил брандмауера</strong></h4>
+                      <p class="montserrat-500-22-30 _2b0a64">Налаштуйте правила брандмауера для обмеження доступу до вашої системи з невідомих або підозрілих джерел.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="left-arrow hidden w-slider-arrow-left">
+            <div class="icon w-icon-slider-left"></div>
+          </div>
+          <div class="right-arrow hidden w-slider-arrow-right">
+            <div class="icon-2 w-icon-slider-right"></div>
+          </div>
+          <div class="slide-nav nav-for-flip-card w-slider-nav w-slider-nav-invert w-round"></div>
+        </div>
+      </div>
+    </section>
+    <section id="Collection_and_sharing_of_data_in_social_networks" class="dropdown_section position-relative overflow-hidden section">
+      <div class="dropdown_wrapper">
+        <div class="div-block-1370 max-w-760px">
+          <div class="div-block-1369">
+            <h2 class="montserrat-800-32-39 uppercase">Безпечне використання Інтернету</h2>
+          </div>
+          <div class="div-block-17-copy"></div>
+        </div>
+        <div data-hover="false" data-delay="0" data-w-id="35714176-9903-094f-e061-163b57f0af42" style="height:94px;color:rgb(82,46,146)" class="dropdown w-dropdown">
+          <div class="dropdown_toggle w-dropdown-toggle">
+            <div><strong>Обережність на вебсайтах</strong></div>
+          </div>
+          <nav class="dropdown-list w-dropdown-list">
+            <div class="div-block-1346">
+              <p class="montserrat-500-22-30">Уникайте відвідування підозрілих або ненадійних вебсайтів.</p>
+              <p class="montserrat-500-22-30">Використовуйте HTTPS-з&#x27;єднання для передавання конфіденційних даних. Перевіряйте наявність значка замка в адресному рядку браузера.</p>
+            </div>
+          </nav>
+        </div>
+        <div data-hover="false" data-delay="0" data-w-id="35714176-9903-094f-e061-163b57f0af4d" style="height:94px;color:rgb(82,46,146)" class="dropdown w-dropdown">
+          <div class="dropdown_toggle w-dropdown-toggle">
+            <div><strong>Використання VPN</strong></div>
+          </div>
+          <nav class="dropdown-list w-dropdown-list">
+            <div class="div-block-1346">
+              <p class="montserrat-500-22-30 _2b0a64">VPN (віртуальна приватна мережа) – технологія, що дозволяє створити захищене та зашифроване з&#x27;єднання через Інтернет, приховуючи ваше реальне місцезнаходження та IP-адресу.</p>
+              <p class="montserrat-500-22-30 _2b0a64">Це особливо корисно під час підключення до публічних мереж Wi-Fi, здійснення онлайн-покупок або під час роботи з конфіденційною інформацією.</p>
+              <p class="montserrat-500-22-30 _2b0a64">Приклади VPN-сервісів: NordVPN, ExpressVPN, CyberGhost.</p>
+            </div>
+          </nav>
+        </div>
+      </div><img src="images/m5-s12-img-7.png" loading="lazy" sizes="(max-width: 991px) 100vw, (max-width: 1439px) 26vw, 25vw" srcset="images/m5-s12-img-7-p-500.png 500w, images/m5-s12-img-7.png 621w" alt="" class="m5-s12-img-7">
+    </section>
+    <section class="section-text-on-white-list section">
+      <div class="text-on-white">
+        <div class="div-block-45 padding-100">
+          <div class="div-block-1347 max-w-100">
+            <h2 class="montserrat-500-22-30 dark-violet center">Дотримуючись рекомендацій щодо оновлення програмного забезпечення, уникнення підозрілих покликань, обережностіз вкладеннями в електронній пошті та використання антивірусного програмного забезпечення, ви зможете ефективно захистити свій комп&#x27;ютер або мобільний пристрій від шкідливих програм.</h2>
+          </div>
+        </div><img src="images/m5-s12-img-8.png" loading="lazy" sizes="(max-width: 479px) 383.32177734375px, (max-width: 767px) 81vw, (max-width: 991px) 624.9913330078125px, 43vw" srcset="images/m5-s12-img-8-p-500.png 500w, images/m5-s12-img-8-p-800.png 800w, images/m5-s12-img-8.png 909w" alt="" class="m5-slide12-8img">
+      </div>
+    </section>
+    <section id="m5-item-5" class="timeline-section position-relative align-top section"><img src="images/m5s13-1.png" loading="lazy" alt="" class="m5-s13-img-1"><img src="images/images_4.png" loading="lazy" sizes="(max-width: 991px) 100vw, (max-width: 1439px) 20vw, 24vw" srcset="images/images_4-p-500.png 500w, images/images_4.png 640w" alt="" class="m5-s13-img-2">
+      <div class="div-block-27">
+        <div>
+          <h2 class="montserrat-800-32-39 capitalize align-center">Захист даних на пристроях</h2>
+          <p class="montserrat-700-22-30 _2b0a64 text-align-center">Захист особистих даних на пристроях убезпечить вас від:</p>
+        </div>
+        <div class="timeline-items padding-top-20px flex-block-horizontal">
+          <div class="montserrat-500-22-30 _2b0a64">1.</div>
+          <p class="montserrat-500-22-30 _2b0a64">Несанкціонованого доступу до таких особистих даних, як-от паролі, номери кредитних карток, медична інформація, особисті повідомлення тощо</p>
+        </div>
+        <div class="line"></div>
+        <div data-w-id="35714176-9903-094f-e061-163b57f0af71" style="opacity:0" class="timeline-items flex-block-horizontal">
+          <div class="montserrat-500-22-30 _2b0a64">2.</div>
+          <p class="montserrat-500-22-30 _2b0a64">Крадіжки грошей з банківськиз рахунків</p>
+        </div>
+        <div data-w-id="35714176-9903-094f-e061-163b57f0af76" style="opacity:0" class="line"></div>
+        <div data-w-id="35714176-9903-094f-e061-163b57f0af77" style="opacity:0" class="timeline-items flex-block-horizontal">
+          <div class="montserrat-500-22-30 _2b0a64">3.</div>
+          <p class="montserrat-500-22-30 _2b0a64">Використання зловмисниками ваших даних для здійснення злочинів від вашого імені</p>
+        </div>
+        <div data-w-id="35714176-9903-094f-e061-163b57f0af7c" style="opacity:0" class="line"></div>
+        <div data-w-id="35714176-9903-094f-e061-163b57f0af7d" style="opacity:0" class="timeline-items flex-block-horizontal">
+          <div class="montserrat-500-22-30 _2b0a64">4.</div>
+          <p class="montserrat-500-22-30 _2b0a64">Кібербулінгу та інших видів домагань</p>
+        </div>
+      </div>
+    </section>
+    <section id="Restoring_data_from_backups" data-w-id="35714176-9903-094f-e061-163b57f0af82" class="m5slide14">
+      <div class="div-block-33">
+        <div class="div-block-4374">
+          <div class="text sizing-grow align-left gap-50 rempve-padding-top">
+            <div class="slide12-txt1">
+              <p class="montserrat-500-22-30 black-violet">Для захисту даних від несанкціонованого доступу використовується</p>
+            </div>
+            <div data-w-id="35714176-9903-094f-e061-163b57f0af89" class="slide14-txt2">
+              <h2 class="montserrat-800-32-39 capitalize"><span class="highlight-word-2">ШИФРУВАННЯ</span></h2>
+            </div>
+          </div>
+          <div class="img fix"><img src="images/m5-slide27-image1.png" loading="lazy" data-w-id="35714176-9903-094f-e061-163b57f0af8e" alt="" class="m5slide14-img1"><img src="images/m5-slide27-image2.png" loading="lazy" data-w-id="35714176-9903-094f-e061-163b57f0af8f" alt="" class="m5slide14-img2"></div>
+        </div>
+      </div>
+      <div data-w-id="35714176-9903-094f-e061-163b57f0af90" class="div-block-31 section"></div>
+      <div data-w-id="35714176-9903-094f-e061-163b57f0af91" class="div-block-32 section"></div>
+    </section>
+    <section class="slider_section position-relative section">
+      <div class="intro-content gap-0 display-none">
+        <p class="montserrat-800-32-39 capitalize">Оновлення ОС та іншого ПЗ на пристроях</p>
+        <p class="montserrat-500-22-30 dark-violet center">Чому оновлення є критично важливими?</p>
+      </div>
+      <div class="slider-div-block align-top">
+        <div data-delay="4000" data-animation="slide" class="slider align-top height-auto w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
+          <div class="mask w-slider-mask">
+            <div class="slide w-slide">
+              <div class="slide_content align-top-mobile height-auto remove-padding">
+                <p class="montserrat-500-22-30 _2b0a64 text-align-center">Шифрування захищає дані під час їх передачі через Інтернет або інші мережі. Використання протоколів HTTPS і VPN допомагає забезпечити захищене з&#x27;єднання.</p>
+              </div>
+            </div>
+            <div class="slide w-slide">
+              <div class="slide_content align-top-mobile height-auto remove-padding">
+                <p class="montserrat-500-22-30 _2b0a64 text-align-center">Шифрування даних на жорсткому диску або мобільному пристрої захищає інформацію у разі втрати або крадіжки пристрою. Наприклад, BitLocker на Windows або FileVault на macOS забезпечують шифрування дисків.</p>
+              </div>
+            </div>
+            <div class="slide w-slide">
+              <div class="slide_content align-top-mobile height-auto remove-padding">
+                <p class="montserrat-500-22-30 _2b0a64 text-align-center">Деякі програми дозволяють шифрувати окремі файли або папки для додаткового захисту (наприклад, VeraCrypt).</p>
+              </div>
+            </div>
+            <div class="slide w-slide">
+              <div class="slide_content align-top-mobile height-auto remove-padding">
+                <p class="montserrat-500-22-30 _2b0a64 text-align-center">Шифрування резервних копій даних гарантує, що навіть якщо резервні копії будуть викрадені, зловмисники не зможуть прочитати інформацію без відповідного ключа.</p>
+              </div>
+            </div>
+          </div>
+          <div class="left-arrow w-slider-arrow-left">
+            <div class="icon w-icon-slider-left"></div>
+          </div>
+          <div class="right-arrow w-slider-arrow-right">
+            <div class="icon-2 w-icon-slider-right"></div>
+          </div>
+          <div class="slide-nav position-statick padding-top w-slider-nav w-slider-nav-invert w-round"></div>
+        </div>
+      </div><img src="images/m5s14-3.png" loading="lazy" alt="" class="m5s14-img3"><img src="images/m5s14-4.png" loading="lazy" alt="" class="m5s14-img4">
+    </section>
+    <section id="Restoring_data_from_backups" data-w-id="35714176-9903-094f-e061-163b57f0afb2" class="m5slide15">
+      <div class="div-block-33 fix">
+        <div class="div-block-4374">
+          <div class="text sizing-grow align-left remove-padding-top gap-40">
+            <div class="slide12-txt1">
+              <p class="montserrat-500-22-30 black-violet">Для запобігання втрати даних і їх відновлення використовується</p>
+            </div>
+            <div data-w-id="35714176-9903-094f-e061-163b57f0afb9" class="slide14-txt2">
+              <h2 class="montserrat-800-32-39 capitalize"><span class="highlight-word-2">РЕЗЕРВНЕ КОПІЮВАННЯ</span></h2>
+            </div>
+          </div>
+          <div class="img fix"><img src="images/m5s15-1.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 991px) 529.9956665039062px, (max-width: 1279px) 45vw, (max-width: 1439px) 521.9869995117188px, 559.9956665039062px" srcset="images/m5s15-1-p-500.png 500w, images/m5s15-1.png 560w" alt="" class="m5slide15-img1"><img src="images/41.png" loading="lazy" data-w-id="35714176-9903-094f-e061-163b57f0afbf" alt="" class="m5slide14-img2"></div>
+        </div>
+      </div>
+      <div data-w-id="35714176-9903-094f-e061-163b57f0afc0" class="div-block-31 section"></div>
+      <div data-w-id="35714176-9903-094f-e061-163b57f0afc1" class="div-block-32 section"></div>
+    </section>
+    <section class="slider_section position-relative section">
+      <div class="intro-content gap-0 display-none">
+        <p class="montserrat-800-32-39 capitalize">Оновлення ОС та іншого ПЗ на пристроях</p>
+        <p class="montserrat-500-22-30 dark-violet center">Чому оновлення є критично важливими?</p>
+      </div>
+      <div class="slider-div-block align-top">
+        <div data-delay="4000" data-animation="slide" class="slider align-top height-auto w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
+          <div class="mask w-slider-mask">
+            <div class="slide w-slide">
+              <div class="slide_content align-top-mobile height-auto remove-padding">
+                <p class="montserrat-500-22-30 _2b0a64 text-align-center">Зберігайте резервні копії у кількох місцях, наприклад, на зовнішніх жорстких дисках, у хмарних сховищах і на фізичних носіях (наприклад, USB-накопичувачах).</p>
+              </div>
+            </div>
+            <div class="slide w-slide">
+              <div class="slide_content align-top-mobile height-auto remove-padding">
+                <p class="montserrat-500-22-30 _2b0a64 text-align-center">Використовуйте програмне забезпечення для автоматизації резервного копіювання, щоб не забути про це важливе завдання.</p>
+              </div>
+            </div>
+            <div class="slide w-slide">
+              <div class="slide_content align-top-mobile height-auto remove-padding">
+                <p class="montserrat-500-22-30 _2b0a64 text-align-center">Визначте графік регулярного резервного копіювання залежно від важливості даних та частоти їх оновлення (щодня, щотижня або щомісяця).</p>
+              </div>
+            </div>
+            <div class="slide w-slide">
+              <div class="slide_content align-top-mobile height-auto remove-padding">
+                <p class="montserrat-500-22-30 _2b0a64 text-align-center">Періодично перевіряйте можливість відновлення даних з резервних копій, щоб переконатися, що процес працює належним чином і дані можна успішно відновити.</p>
+              </div>
+            </div>
+          </div>
+          <div class="left-arrow w-slider-arrow-left">
+            <div class="icon w-icon-slider-left"></div>
+          </div>
+          <div class="right-arrow w-slider-arrow-right">
+            <div class="icon-2 w-icon-slider-right"></div>
+          </div>
+          <div class="slide-nav position-statick padding-top w-slider-nav w-slider-nav-invert w-round"></div>
+        </div>
+      </div><img src="images/m5s15-3.png" loading="lazy" sizes="(max-width: 991px) 100vw, (max-width: 1919px) 30vw, 556.9956665039062px" srcset="images/m5s15-3-p-500.png 500w, images/m5s15-3.png 557w" alt="" class="m5s15-img3"><img src="images/m5s15-4.png" loading="lazy" sizes="(max-width: 991px) 100vw, (max-width: 1919px) 35vw, 30vw" srcset="images/m5s15-4-p-500.png 500w, images/m5s15-4.png 781w" alt="" class="m5s15-img4">
+    </section>
+    <section id="m5-item-6" class="slide_with_dropdown_q section">
+      <div class="main-block"><img src="images/bg_image_2.png" loading="lazy" sizes="(max-width: 991px) 100vw, (max-width: 1279px) 90vw, (max-width: 1439px) 1137.756591796875px, (max-width: 1919px) 85vw, 1519.9957275390625px" srcset="images/bg_image_2-p-500.png 500w, images/bg_image_2-p-800.png 800w, images/bg_image_2-p-1080.png 1080w, images/bg_image_2.png 1520w" alt="" class="image-122">
+        <div class="question-block align-center max-w-640">
+          <h2 class="montserrat-800-32-39 capitalize"><span class="highlight-word-2">Підсумуємо?</span></h2>
+          <p class="montserrat-700-22-30 _2b0a64 text-align-center">Співставте кожну описану ситуацію з відповідним безпековим заходом, який допоміг би її уникнути</p>
+        </div>
+        <div class="white-block white">
+          <div class="div-block-4327-copy">
+            <div class="ask">
+              <div class="text_quest">
+                <div class="montserrat-500-22-30 _2b0a64">Після чергового оновлення браузера Василь зауважив, що його комп&#x27;ютер почав працювати повільніше, і з&#x27;явилися підозрілі помилки.</div>
+              </div>
+              <div class="form-block-5 w-form">
+                <form id="wf-form-Select-Form" name="wf-form-Select-Form" data-name="Select Form" method="get" class="form-4 z-index_8" data-wf-page-id="676056e94453a0e6fa37bfbd" data-wf-element-id="35714176-9903-094f-e061-163b57f0aff2">
+                  <div data-delay="0" data-hover="false" fs-selectcustom-hideinitial="true" fs-selectcustom-element="dropdown" data-w-id="35714176-9903-094f-e061-163b57f0aff3" class="fs-select-1-2 z_index_8 w-dropdown">
+                    <div class="fs-select_toggle-1-2 w-dropdown-toggle">
+                      <div class="fs-select_text-1">Зробіть вибір</div>
+                      <div class="dd-icon w-embed"><svg width="22" height="15" viewbox="0 0 22 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M11 15L0.607698 -1.9576e-06L21.3923 -1.40549e-07L11 15Z" fill="currentColor"></path>
+                        </svg></div>
+                    </div>
+                    <nav id="my-dropdown" class="fs-select_list-1-2 _w--open w-dropdown-list"><select id="select-field" name="select-field-1" data-name="select field 1" multiple="" ms-code="hide-first-option" class="fs-select_field-1-2 w-select">
+                        <option value="1">Регулярне оновлення ОС</option>
+                        <option value="Another option">Блокування пристрою за допомогою біометрії</option>
+                        <option value="Another option">Шифрування даних</option>
+                      </select>
+                      <a href="#" class="fs-select_link-1-2 w-dropdown-link">Select link</a>
+                    </nav>
+                  </div>
+                </form>
+                <div class="w-form-done">
+                  <div>Thank you! Your submission has been received!</div>
+                </div>
+                <div class="w-form-fail">
+                  <div>Oops! Something went wrong while submitting the form.</div>
+                </div>
+              </div>
+            </div>
+            <div class="ask">
+              <div class="text_quest">
+                <div class="montserrat-500-22-30 _2b0a64">Марія загубила свій смартфон. Після чого люди з її списку контактів почали отримувати повідомлення з проханням допомогти начебто їй грошима.</div>
+              </div>
+              <div class="form-block-5 w-form">
+                <form id="wf-form-Select-Form" name="wf-form-Select-Form" data-name="Select Form" method="get" class="form-4" data-wf-page-id="676056e94453a0e6fa37bfbd" data-wf-element-id="35714176-9903-094f-e061-163b57f0b007">
+                  <div data-delay="0" data-hover="false" fs-selectcustom-hideinitial="true" fs-selectcustom-element="dropdown" data-w-id="35714176-9903-094f-e061-163b57f0b008" class="fs-select-1-2 z-index_7 w-dropdown">
+                    <div class="fs-select_toggle-1-2 w-dropdown-toggle">
+                      <div class="fs-select_text-1"> Зробіть вибір</div>
+                      <div class="dd-icon w-embed"><svg width="22" height="15" viewbox="0 0 22 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M11 15L0.607698 -1.9576e-06L21.3923 -1.40549e-07L11 15Z" fill="currentColor"></path>
+                        </svg></div>
+                    </div>
+                    <nav id="my-dropdown" class="fs-select_list-1-2 _w--open w-dropdown-list"><select id="select-field" name="select-field-1" data-name="select field 1" multiple="" ms-code="hide-first-option" class="fs-select_field-1-2 w-select">
+                        <option value="First">Регулярне оновлення ОС</option>
+                        <option value="Second">Блокування пристрою за допомогою біометрії</option>
+                        <option value="third">Шифрування даних</option>
+                      </select>
+                      <a href="#" class="fs-select_link-1-2 w-dropdown-link">Select link</a>
+                    </nav>
+                  </div>
+                </form>
+                <div class="w-form-done">
+                  <div>Thank you! Your submission has been received!</div>
+                </div>
+                <div class="w-form-fail">
+                  <div>Oops! Something went wrong while submitting the form.</div>
+                </div>
+              </div>
+            </div>
+            <div class="ask">
+              <div class="text_quest">
+                <div class="montserrat-500-22-30 _2b0a64">Зловмисники отримали доступ до конфіденційних даних на ноутбуці Ігоря після того, як він здавав пристрій у ремонт.</div>
+              </div>
+              <div class="form-block-5 w-form">
+                <form id="wf-form-Select-Form" name="wf-form-Select-Form" data-name="Select Form" method="get" class="form-4" data-wf-page-id="676056e94453a0e6fa37bfbd" data-wf-element-id="35714176-9903-094f-e061-163b57f0b01c">
+                  <div data-delay="0" data-hover="false" fs-selectcustom-hideinitial="true" fs-selectcustom-element="dropdown" data-w-id="35714176-9903-094f-e061-163b57f0b01d" class="fs-select-1-2 z-index_6 w-dropdown">
+                    <div class="fs-select_toggle-1-2 w-dropdown-toggle">
+                      <div class="fs-select_text-1"> Зробіть вибір</div>
+                      <div class="dd-icon w-embed"><svg width="22" height="15" viewbox="0 0 22 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M11 15L0.607698 -1.9576e-06L21.3923 -1.40549e-07L11 15Z" fill="currentColor"></path>
+                        </svg></div>
+                    </div>
+                    <nav id="my-dropdown" class="fs-select_list-1-2 _w--open w-dropdown-list"><select id="select-field" name="select-field-1" data-name="select field 1" multiple="" ms-code="hide-first-option" class="fs-select_field-1-2 w-select">
+                        <option value="First">Регулярне оновлення ОС</option>
+                        <option value="Second">Блокування пристрою за допомогою біометрії</option>
+                        <option value="third">Шифрування даних</option>
+                      </select>
+                      <a href="#" class="fs-select_link-1-2 w-dropdown-link">Select link</a>
+                    </nav>
+                  </div>
+                </form>
+                <div class="w-form-done">
+                  <div>Thank you! Your submission has been received!</div>
+                </div>
+                <div class="w-form-fail">
+                  <div>Oops! Something went wrong while submitting the form.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="div-block-4328">
+            <a href="#" class="submit_btn disabled_1 w-button">Підтвердити</a>
+          </div>
+        </div>
+      </div>
+      <div class="answer-block">
+        <div class="div-block-4330">
+          <div class="header">
+            <div class="t1"><span class="highlight-word-2">Супер!</span></div>
+            <div class="t2"><span class="highlight-word-2">Хм, поміркуймо!</span></div>
+          </div>
+          <div class="dropdown_wrapper">
+            <div class="div-block-17-copy"></div>
+            <div data-hover="false" data-delay="0" data-w-id="35714176-9903-094f-e061-163b57f0b03a" style="height:94px;color:rgb(82,46,146)" class="dropdown w-dropdown">
+              <div class="dropdown_toggle w-dropdown-toggle">
+                <div><strong>Регулярне оновлення ОС</strong></div>
+              </div>
+              <nav class="dropdown-list w-dropdown-list">
+                <div class="div-block-1346">
+                  <p class="montserrat-500-22-30 _2b0a64">Після чергового оновлення браузера Василь зауважив, що його комп&#x27;ютер почав працювати повільніше, і з&#x27;явилися підозрілі помилки.</p>
+                </div>
+              </nav>
+            </div>
+            <div data-hover="false" data-delay="0" data-w-id="35714176-9903-094f-e061-163b57f0b043" style="height:94px;color:rgb(82,46,146)" class="dropdown w-dropdown">
+              <div class="dropdown_toggle w-dropdown-toggle">
+                <div><strong>Блокування пристрою за допомогою біометрії</strong></div>
+              </div>
+              <nav class="dropdown-list w-dropdown-list">
+                <div class="div-block-1346">
+                  <p class="montserrat-500-22-30 _2b0a64">Марія загубила свій смартфон. Після чого люди з її списку контактів почали отримувати повідомлення з проханням допомогти начебто їй грошима.</p>
+                </div>
+              </nav>
+            </div>
+            <div data-hover="false" data-delay="0" data-w-id="35714176-9903-094f-e061-163b57f0b04c" style="height:94px;color:rgb(82,46,146)" class="dropdown w-dropdown">
+              <div class="dropdown_toggle w-dropdown-toggle">
+                <div><strong>Шифрування даних</strong></div>
+              </div>
+              <nav class="dropdown-list w-dropdown-list">
+                <div class="div-block-1346">
+                  <p class="montserrat-500-22-30 _2b0a64">Зловмисники отримали доступ до конфіденційних даних на ноутбуці Ігоря після того, як він здавав пристрій у ремонт.</p>
+                </div>
+              </nav>
+            </div>
+          </div>
+          <a id="m5-slide28-try-again" href="#" class="back-to-question w-button">Спробувати ще</a>
+        </div><img src="images/m5s16-1.png" loading="lazy" sizes="100vw" srcset="images/m5s16-1-p-500.png 500w, images/m5s16-1.png 547w" alt="" class="image-123"><img src="images/m5s16-2.png" loading="lazy" sizes="100vw" srcset="images/m5s16-2-p-500.png 500w, images/m5s16-2.png 640w" alt="" class="image-123-copy">
+      </div>
+    </section>
+    <section class="section-text-on-white-list section">
+      <div class="text-on-white">
+        <div class="div-block-45">
+          <div class="div-block-1347 max-w-90 gap-20">
+            <h2 class="montserrat-800-32-39 capitalize align-center">Убезпечити ваші пристрої і дані на них вам допоможуть наступні кроки</h2>
+          </div>
+        </div><img src="images/m5s17-1.png" loading="lazy" sizes="(max-width: 991px) 303.9913330078125px, 27vw" srcset="images/m5s17-1-p-500.png 500w, images/m5s17-1.png 566w" alt="" class="m5-slide17-img-1"><img src="images/m5s17-2.png" loading="lazy" sizes="(max-width: 991px) 300.0000305175781px, 27vw" srcset="images/m5s17-2-p-500.png 500w, images/m5s17-2.png 684w" alt="" class="m5-slide17-img-2">
+      </div>
+    </section>
+    <section sr-id="completion" sr-component="PassOnView_V1" class="timeline-section position-relative section paddint-top-bobile"><img src="images/girl.png" loading="lazy" sizes="(max-width: 991px) 100vw, (max-width: 1439px) 26vw, (max-width: 1919px) 28vw, 34vw" srcset="images/girl-p-500.png 500w, images/girl.png 720w" alt="" class="m5-s18-img">
+      <div class="div-block-27 remove-padding">
+        <div class="intro hide-block">
+          <h2 class="montserrat-800-32-39 capitalize align-text-center-max-width-550px"><span class="highlight-word-2">соціальні мережі – </span>онлайн-платформи, які...</h2>
+        </div>
+        <div class="timeline-items">
+          <p class="montserrat-500-22-30 _2b0a64 text-align-center">Регулярне оновлення ОС та використовуваного на пристрої ПЗ.</p>
+        </div>
+        <div class="line"></div>
+        <div data-w-id="35714176-9903-094f-e061-163b57f0b06b" style="opacity:0" class="timeline-items">
+          <p class="montserrat-500-22-30 _2b0a64 text-align-center">Використання вбудованих в ОС пристрою налаштувань безпеки – менеджерування облікових записів, дотримання політик паролів, увімкнення брандмауерів тощо.</p>
+        </div>
+        <div data-w-id="35714176-9903-094f-e061-163b57f0b06e" style="opacity:0" class="line"></div>
+        <div data-w-id="35714176-9903-094f-e061-163b57f0b06f" style="opacity:0" class="timeline-items">
+          <p class="montserrat-500-22-30 _2b0a64 text-align-center">Використання антивірусів та VPN для захистувід шкідливого ПЗ та несанкціонованого доступу.</p>
+        </div>
+        <div data-w-id="35714176-9903-094f-e061-163b57f0b072" style="opacity:0" class="line"></div>
+        <div data-w-id="35714176-9903-094f-e061-163b57f0b073" style="opacity:0" class="timeline-items">
+          <p class="montserrat-500-22-30 _2b0a64 text-align-center">Шифрування та резервне копіювання даних на пристроях.</p>
+        </div>
+        <div data-w-id="35714176-9903-094f-e061-163b57f0b076" style="opacity:0" class="line"></div>
+        <div data-w-id="35714176-9903-094f-e061-163b57f0b077" style="opacity:0" class="timeline-items">
+          <p class="montserrat-500-22-30 _2b0a64 text-align-center">Уважність та обережність під час переходу за покликаннями, завантаження вкладень, встановлення додатків та відвідування вебсайтів.</p>
+        </div>
+      </div>
+    </section>
+    <section id="Exit" class="text-img_section_2 section">
+      <div class="img-text direction-up">
+        <div class="img-text__text-block3">
+          <h2 class="montserrat-800-32-39 uppercase">Вітаємо із завершенням<span class="highlight-word"> </span><span class="highlight">Модуля 5</span></h2>
+          <p class="montserrat-500-22-30 dark-violet">У наступному модулі вирушимо в подорож із вивчення відповідального та безпечного використання технологій штучного інтелекту, адже із зростанням його можливостей зростають і ризики, пов’язані з ним</p>
+          <a href="#" class="final_button none w-button">Вийти</a>
+        </div><img src="images/image_16.png" loading="lazy" sizes="(max-width: 991px) 100vw, 540.0000610351562px" srcset="images/image_16-p-500.png 500w, images/image_16.png 560w" alt="" class="img-text__img2"><img src="images/image_23.png" loading="lazy" alt="" class="final-small-image">
+      </div>
+    </section>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=676056e94453a0e6fa37bfbb" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/gh/Ferragone/webflow-crdf-bundle@main/webflow.bundle.scorm1.2.prod.js" data-prod=""></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.21/jquery.scrollify.min.js" integrity="sha512-UyX8JsMsNRW1cYl8BoxpcamonpwU2y7mSTsN0Z52plp7oKo1u92Xqfpv6lOlTyH3yiMXK+gU1jw0DVCsPTfKew==" crossorigin="anonymous"></script>
+  <script>
+	if ($(window).width() > 767) {
+  $(function() {
+    $.scrollify({
+      section : ".section",
+      setHeights: false,
+    });
+  });
+  };
+  $('.dropdown_toggle').on('click', function() {
+        // Додаємо клас 'dropdown_visited' до елемента, на який було клікнуто
+        $(this).addClass('dropdown_visited');
+       $(this).toggleClass('dropdown_open');
+    });
+    $("#menu-btn-1").on("click", function(){
+	$.scrollify.move("#1");
+})
+const m4_s4_buttons = document.querySelectorAll('.m5s4-btns');
+m4_s4_buttons.forEach(button => {
+    button.addEventListener('click', () => {
+    	m4_s4_buttons.forEach(btn => btn.classList.remove('selected'));
+        button.classList.add('selected');
+    });
+});
+$("#m5_slide4_btn_1").on("click", function() {
+	$("#m5_slide4_btn_1").addClass("Visited");
+   $(".m5s4-feedback").css('display', 'block');
+	 $(".m5s4-feedback").addClass("section");
+   $('.m5s4-feedback-1').css("display", "none");
+   $(".m5s4-feedback-2").css("display", "flex");
+   $(".m5s4-feedback-3").css("display", "none");
+   $(".m5s4-feedback-4").css("display", "none");
+   $.scrollify.update();
+   $.scrollify.next();
+})
+$("#m5_slide4_btn_2").on("click", function() {
+	$("#m5_slide4_btn_2").addClass("Visited");
+   $(".m5s4-feedback").css('display', 'block');
+	 $(".m5s4-feedback").addClass("section");
+   $('.m5s4-feedback-1').css("display", "none");
+   $(".m5s4-feedback-2").css("display", "none");
+   $(".m5s4-feedback-3").css("display", "flex");
+   $(".m5s4-feedback-4").css("display", "none");
+   $.scrollify.update();
+   $.scrollify.next();
+})
+$("#m5_slide4_btn_3").on("click", function() {
+	$("#m5_slide4_btn_3").addClass("Visited");
+   $(".m5s4-feedback").css('display', 'block');
+	 $(".m5s4-feedback").addClass("section");
+   $('.m5s4-feedback-1').css("display", "flex");
+   $(".m5s4-feedback-2").css("display", "none");
+   $(".m5s4-feedback-3").css("display", "none");
+   $(".m5s4-feedback-4").css("display", "none");
+   $.scrollify.update();
+   $.scrollify.next();
+})
+$("#m5_slide4_btn_4").on("click", function() {
+	$("#m5_slide4_btn_4").addClass("Visited");
+   $(".m5s4-feedback").css('display', 'block');
+	 $(".m5s4-feedback").addClass("section");
+   $('.m5s4-feedback-1').css("display", "none");
+   $(".m5s4-feedback-2").css("display", "none");
+   $(".m5s4-feedback-3").css("display", "none");
+   $(".m5s4-feedback-4").css("display", "flex");
+   $.scrollify.update();
+   $.scrollify.next();
+})
+$("#m5-slide5-back-btn-1").on("click", function() {
+   $.scrollify.update();
+   $.scrollify.previous();
+})
+$("#m5-slide5-back-btn-2").on("click", function() {
+   $.scrollify.update();
+   $.scrollify.previous();
+})
+$("#m5-slide5-back-btn-3").on("click", function() {
+   $.scrollify.update();
+   $.scrollify.previous();
+})
+$("#m5-slide5-back-btn-4").on("click", function() {
+   $.scrollify.update();
+   $.scrollify.previous();
+})
+</script>
+  <script>
+ (function() {
+  let audio = document.querySelector('audio');
+  audio.play();
+  const onOffButton = document.querySelector(".switch");
+  function switchButton() {
+    let audio = document.querySelector('audio');
+    onOffButton.classList.toggle("on");
+    if (onOffButton.classList.contains('on')) {
+        audio.play();
+    } else {
+        audio.pause();
+    }
+  }
+  onOffButton.addEventListener("click", switchButton);
+})();
+</script>
+  <script>
+document.addEventListener('click', function (event) {
+if (event.target.classList.contains("fs-select_toggle-1-2")){
+  let prevElement = event.target.previousElementSibling;
+}
+   })
+    const expectedArr = ['Регулярне оновлення ОС\n\n', 'Блокування пристрою за допомогою біометрії\n\n', 'Шифрування даних\n\n']
+    const actualArr = [0,0,0]
+     const dropfields = document.querySelectorAll(".fs-select_toggle-1-2");
+document.addEventListener("click", function updateArr(e) {
+    if (e.target.classList.contains("w-dropdown-link")) {
+    		const parentElem = e.target.parentElement.parentElement;
+      	const perant = parentElem.querySelector('.fs-select_toggle-1-2');
+        dropfields.forEach((item, index) => {
+        		if (item == perant){
+            		actualArr[index]=dropfields[index].textContent
+                console.log(actualArr)
+            }
+        });
+    }
+    	btnSubActivate();
+});
+$(".submit_btn").on("click", function () {
+ $(".answer-block").css("display", "flex");
+  $(".main-block").css("display", "none");
+  console.log(expectedArr)
+    if (arraysAreEqual(expectedArr, actualArr)) {
+        console.log(true);
+         $(".t1").css("display", "block");
+         $("#m5-slide28-try-again").css("display", "none");
+    } else {
+      $(".t2").css("display", "block");
+      $("#m5-slide28-try-again").css("display", "block");
+        console.log(false);
+    }
+});
+function arraysAreEqual(arr1, arr2) {
+    // Перевірка на однакову довжину
+    if (arr1.length !== arr2.length) {
+        return false;
+    }
+    // Порівняння кожного елемента масивів
+    for (let i = 0; i < arr1.length; i++) {
+        // Порівнюємо тексти елементів за допомогою строгого порівняння (===)
+        if (arr1[i] !== arr2[i]) {
+            return false;
+        }
+    }
+    // Якщо всі елементи співпали, масиви ідентичні
+    return true;
+}
+function btnSubActivate() {
+    // Перевірка, чи всі елементи масиву actualArr не дорівнюють 0
+    const allNonZero = actualArr.every(item => item !== 0);
+    // Якщо всі елементи не дорівнюють 0, видаляємо клас disabled_1 з кнопки
+    if (allNonZero) {
+        $(".submit_btn").removeClass('disabled_1');
+    }
+}
+$("#m5-slide28-try-again").on("click", function () {
+ $(".answer-block").css("display", "none");
+  $(".main-block").css("display", "flex");
+  $(".t1").css("display", "none");
+  $(".t2").css("display", "none");
+});
+</script>
+  <!--  [Attributes by Finsweet] Custom Form Select  -->
+  <script defer="" src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-selectcustom@1/selectcustom.js"></script>
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const dropdownToggle = document.querySelector('.dropdown_toggle');
+    const dropdownList = document.querySelector('.dropdown-list');
+    const dropdownWrapper = document.querySelector('.dropdown_wrapper');
+    let isDropdownOpen = false; // Стан відкриття меню
+    let isCursorInside = false; // Стан перебування курсора в межах dropdown_wrapper
+    let isScrolling = false; // Стан прокручування
+    // Відкриття/закриття списку при натисканні на кнопку
+    dropdownToggle.addEventListener('click', function(event) {
+      event.stopPropagation(); // Запобігає закриттю списку при кліку на кнопку
+      isDropdownOpen = !isDropdownOpen; // Зміна стану меню
+      dropdownList.classList.toggle('open'); // Відкриває або закриває меню
+    });
+    // Закриття списку при кліку поза списком та кнопкою
+    document.addEventListener('click', function(event) {
+      if (!dropdownList.contains(event.target) && !dropdownToggle.contains(event.target)) {
+        dropdownList.classList.remove('open');
+        isDropdownOpen = false; // Якщо меню закрили
+      }
+    });
+    // Визначаємо, чи курсор знаходиться всередині dropdown_wrapper
+    dropdownWrapper.addEventListener('mouseenter', function() {
+      isCursorInside = true;
+    });
+    dropdownWrapper.addEventListener('mouseleave', function() {
+      isCursorInside = false;
+    });
+    // Контролюємо швидкість прокручування та блокуємо її, коли курсор в межах dropdown_wrapper
+    dropdownWrapper.addEventListener('wheel', function(event) {
+      if (isCursorInside && isDropdownOpen) {
+        if (!isScrolling) {
+          isScrolling = true;
+          event.stopPropagation(); // Запобігає прокручуванню в межах dropdown_wrapper
+          setTimeout(function() {
+            isScrolling = false; // Дозволяє прокручування після деякої затримки
+          }, 200); // Збільшена затримка для більш плавного скролу
+        }
+      }
+    }, { passive: false });
+    // Для macOS можна додати додаткову обробку події на touchpad
+    dropdownWrapper.addEventListener('touchstart', function(event) {
+      event.stopPropagation(); // Запобігає закриттю меню при скролі на touchpad
+    });
+    // Відключення scrollify, коли курсор в межах dropdown_wrapper
+    window.addEventListener('wheel', function(event) {
+      // Перевіряємо, чи знаходиться курсор всередині dropdown_wrapper та чи відкрите меню
+      if (isCursorInside && isDropdownOpen) {
+        event.preventDefault(); // Перешкоджає прокручуванню scrollify
+      }
+    }, { passive: false });
+  });
+</script>
+</body>
+</html>

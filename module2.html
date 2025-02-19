@@ -1,0 +1,771 @@
+<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Fri Feb 07 2025 14:08:58 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="676056e94453a0e6fa37bfe2" data-wf-site="676056e94453a0e6fa37bfbb">
+<head>
+  <meta charset="utf-8">
+  <title>Module2</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/crdf---cybersecurity--scorm-5.webflow.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Varela Round:400","Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic"]  }});</script>
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon">
+  <style>
+@media (min-width: 479px) {
+.highlight-word:after{
+			content: url('https://cdn.prod.website-files.com/66d18917351d2bf73d084eea/66d1a5fd523c8aa9b7995c3b_h2_vector_bg.svg');
+      position: absolute;
+    	top: -20px;
+}
+.highlight-word-2:before{
+			content: url('https://cdn.prod.website-files.com/66d18917351d2bf73d084eea/66d1b275c792d2bde4d6a782_highlight_word_vector_2.svg');
+      position: absolute;
+    	top: -20px;
+   		left: -30px;
+}
+.highlight-word-3:after{
+			content: url('https://cdn.prod.website-files.com/66d18917351d2bf73d084eea/66d1a5fd523c8aa9b7995c3b_h2_vector_bg.svg');
+      position: absolute;
+    	top: -20px;
+}
+}
+</style>
+  <style>
+.w-slider-dot {
+  height: 12px;
+  width: 12px; 
+  transition: width 0.5s ease;
+}
+.w-slider-dot.w-active {
+  height: 12px;
+  width: 40px;!important
+}
+.w-slider-nav.w-round>div {
+  border-radius: 12px;
+  background: #522E92;
+}
+</style>
+  <style>
+.section {
+  height: calc(var(--vh, 1vh) * 100);
+}
+</style>
+</head>
+<body class="body">
+  <div class="w-layout-blockcontainer wrapper w-container">
+    <div class="media-block">
+      <div class="div-block-1306">
+        <div id="playBtn" class="play w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19.7479 5.00005C21.1652 6.97029 22 9.38768 22 12C22 14.6124 21.1652 17.0298 19.7479 19M15.7453 8.00005C16.5362 9.13388 17 10.5128 17 12C17 13.4873 16.5362 14.8662 15.7453 16M9.63432 4.36573L6.46863 7.53142C6.29568 7.70437 6.2092 7.79085 6.10828 7.85269C6.01881 7.90752 5.92127 7.94792 5.81923 7.97242C5.70414 8.00005 5.58185 8.00005 5.33726 8.00005H3.6C3.03995 8.00005 2.75992 8.00005 2.54601 8.10904C2.35785 8.20492 2.20487 8.3579 2.10899 8.54606C2 8.75997 2 9.04 2 9.60005V14.4C2 14.9601 2 15.2401 2.10899 15.454C2.20487 15.6422 2.35785 15.7952 2.54601 15.8911C2.75992 16 3.03995 16 3.6 16H5.33726C5.58185 16 5.70414 16 5.81923 16.0277C5.92127 16.0522 6.01881 16.0926 6.10828 16.1474C6.2092 16.2093 6.29568 16.2957 6.46863 16.4687L9.63431 19.6344C10.0627 20.0627 10.2769 20.2769 10.4608 20.2914C10.6203 20.304 10.7763 20.2394 10.8802 20.1177C11 19.9774 11 19.6745 11 19.0687V4.93142C11 4.3256 11 4.0227 10.8802 3.88243C10.7763 3.76073 10.6203 3.69614 10.4608 3.7087C10.2769 3.72317 10.0627 3.93736 9.63432 4.36573Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg></div>
+        <div class="pause w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22 9.00005L16 15M16 9.00005L22 15M9.63432 4.36573L6.46863 7.53142C6.29568 7.70437 6.2092 7.79085 6.10828 7.85269C6.01881 7.90752 5.92127 7.94792 5.81923 7.97242C5.70414 8.00005 5.58185 8.00005 5.33726 8.00005H3.6C3.03995 8.00005 2.75992 8.00005 2.54601 8.10904C2.35785 8.20492 2.20487 8.3579 2.10899 8.54606C2 8.75997 2 9.04 2 9.60005V14.4C2 14.9601 2 15.2401 2.10899 15.454C2.20487 15.6422 2.35785 15.7952 2.54601 15.8911C2.75992 16 3.03995 16 3.6 16H5.33726C5.58185 16 5.70414 16 5.81923 16.0277C5.92127 16.0522 6.01881 16.0926 6.10828 16.1474C6.2092 16.2093 6.29568 16.2957 6.46863 16.4687L9.63431 19.6344C10.0627 20.0627 10.2769 20.2769 10.4608 20.2914C10.6203 20.304 10.7763 20.2394 10.8802 20.1177C11 19.9774 11 19.6745 11 19.0687V4.93142C11 4.3256 11 4.0227 10.8802 3.88243C10.7763 3.76073 10.6203 3.69614 10.4608 3.7087C10.2769 3.72317 10.0627 3.93736 9.63432 4.36573Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg></div>
+        <div data-w-id="395cc97e-3f18-671e-5559-94cb106561c2" class="switch w-embed">
+          <div class="switch">
+            <audio id="myAudio" src="https://storage.googleapis.com/sharedsamples/crdf_audio/deep-ambient-version-60s-9889.mp3?raw=true"></audio>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div data-animation="over-left" data-collapse="all" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
+      <div class="container w-container">
+        <nav role="navigation" class="nav-menu w-nav-menu">
+          <div class="div-block-1359">
+            <div class="nav_menu_content">
+              <div id="menu-btn-1" data-w-id="d5733e13-b29e-14af-fb16-6acce2321f91" class="menu_item_conteiner-2 title_block width-500px"><img width="12" loading="lazy" alt="" src="images/svgviewer-output.svg" class="icon_home">
+                <a href="#" class="menu_item w-nav-link">Модуль 2. паролі та автентифікація</a>
+              </div>
+              <section data-w-id="d5733e13-b29e-14af-fb16-6acce2321f95" class="menu_item_conteiner-2 border_bottom">
+                <div class="icon-3 w-icon-nav-menu"></div>
+                <a href="#" id="m2item1" class="menu_item w-nav-link">Роль паролів</a>
+              </section>
+              <div data-w-id="d5733e13-b29e-14af-fb16-6acce2321f99" class="menu_item_conteiner-2 border_bottom">
+                <div class="icon-3 w-icon-nav-menu"></div>
+                <a href="#" id="m2item2" class="menu_item w-nav-link">Надійність паролів</a>
+              </div>
+              <div data-w-id="d5733e13-b29e-14af-fb16-6acce2321f9d" class="menu_item_conteiner-2 border_bottom">
+                <div class="icon-3 w-icon-nav-menu"></div>
+                <a href="#" id="m2item3" class="menu_item w-nav-link">Менеджери паролів</a>
+              </div>
+              <div data-w-id="d5733e13-b29e-14af-fb16-6acce2321fa1" class="menu_item_conteiner-2 border_bottom">
+                <div class="icon-3 w-icon-nav-menu"></div>
+                <a href="#" id="m2item4" class="menu_item w-nav-link">Моніторинг і гігієна паролів</a>
+              </div>
+              <div data-w-id="d5733e13-b29e-14af-fb16-6acce2321fa5" class="menu_item_conteiner-2 border_bottom">
+                <div class="icon-3 w-icon-nav-menu"></div>
+                <a href="#" id="m2item5" class="menu_item w-nav-link">Методи багатофакторної автентифікації</a>
+              </div>
+              <div data-w-id="5ebcea87-610d-0935-d7ac-cba37e344d5a" class="menu_item_conteiner-2 border_bottom">
+                <div class="icon-3 w-icon-nav-menu"></div>
+                <a href="#" id="m2item6" class="menu_item w-nav-link">Перевірте себе</a>
+              </div>
+              <div data-w-id="d5733e13-b29e-14af-fb16-6acce2321fa9" class="menu_item_conteiner-2">
+                <div class="icon-3 w-icon-nav-menu"></div>
+                <a href="#m2item7" id="m2item7" class="menu_item w-nav-link">Вихід</a>
+              </div>
+            </div>
+            <div class="menu_btn_close">
+              <a href="#" class="button w-button">X</a>
+            </div>
+          </div>
+        </nav>
+        <div class="menu-button w-nav-button">
+          <div class="icon-3 w-icon-nav-menu"></div>
+        </div>
+      </div>
+    </div>
+    <section class="main_section section">
+      <div class="content-smaller-padding height-100">
+        <div class="div-block-4366"><img src="images/module2-main2x.png" loading="lazy" width="850" sizes="(max-width: 479px) 79vw, (max-width: 767px) 85vw, (max-width: 991px) 86vw, (max-width: 1279px) 850px, (max-width: 1439px) 650px, (max-width: 1919px) 812px, 928px" alt="" srcset="images/module2-main2x-p-500.png 500w, images/module2-main2x-p-800.png 800w, images/module2-main2x-p-1080.png 1080w, images/module2-main2x-p-1600.png 1600w, images/module2-main2x-p-2000.png 2000w, images/module2-main2x.png 2320w" class="main-section__img update"></div>
+        <div class="main-section__heading-block">
+          <h1 class="montserrat-900-50-60-95 main_section_color align-center">модуль 2. паролі та автентифікація</h1>
+          <div class="main-bulleted-list hide">
+            <ul role="list" class="list centered-text w-list-unstyled">
+              <li class="montserrat-800-32-39 capitalize">Чому паролі є надважливими для онлайн-безпеки?</li>
+            </ul>
+            <ul role="list" class="list centered-text w-list-unstyled">
+              <li class="montserrat-800-32-39 capitalize">Які є методи автентифікації для захисту цифрових ідентифікаторів і даних?</li>
+            </ul>
+          </div>
+          <div class="custome-list-wrapper">
+            <div class="custome-list">
+              <div class="custome-list-bullet"><img src="images/main-bullet.svg" loading="lazy" alt=""></div>
+              <div class="custome-list-text">
+                <p class="montserrat-800-32-39 capitalize align-center-on-large">Чому паролі є надважливими для онлайн-безпеки?</p>
+              </div>
+            </div>
+            <div class="custome-list">
+              <div class="custome-list-bullet"><img src="images/main-bullet.svg" loading="lazy" alt=""></div>
+              <div class="custome-list-text">
+                <p class="montserrat-800-32-39 capitalize align-center-on-large">Які є методи автентифікації для захисту цифрових ідентифікаторів і даних?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="link-block w-inline-block"><img src="images/chevron-down-double.svg" loading="lazy" alt="">
+          <div>Використовуйте скрол</div>
+        </a>
+      </div>
+    </section>
+    <section id="m2section1" class="img-text_section remove-padding section">
+      <div class="img-text _100vh revert-on-small align-bottom">
+        <div class="div-block-1367 sizing-grow"><img src="images/image-cropped.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 732px) 97vw, (max-width: 991px) 711px, (max-width: 1439px) 560px, 580px" srcset="images/image-cropped-p-500.png 500w, images/image-cropped.png 711w" alt="" class="img-text__img hide-on-mobile"><img src="images/m2-slide2-mobile.png" loading="lazy" alt="" class="image-136"></div>
+        <div class="img-text__text-block max-w-590-mobile">
+          <h2 class="montserrat-800-32-39 capitalize"><span class="highlight-word-2">Паролі</span> – це перша лінія захисту в онлайн-безпеці</h2>
+        </div>
+      </div>
+    </section>
+    <div class="div-block-42">
+      <div class="sticky align-bottom">
+        <div class="content">
+          <div class="content-bubble-1"><img src="images/m2slide11-bubble.svg" loading="lazy" alt="" class="m2slide3-bubble1-desktop"><img src="images/m4-slide6-bubble-3.png" loading="lazy" alt="" class="m2slide3bubble-mobile">
+            <p class="montserrat-500-22-30 black-violet">Атака на компанію Target у 2013 році призвела до одного з найбільших витоків даних у роздрібній торгівлі</p>
+          </div>
+          <div data-w-id="123d1bef-5af4-3559-3e0d-4cc41a52d6d6" class="content-bubble-2">
+            <p class="montserrat-500-22-30 black-violet">Причиною витоку став <strong>ненадійний</strong> пароль адміністратора</p><img src="images/bubble-2.svg" loading="lazy" alt="" class="m2slide3-bubble2-desktop"><img src="images/m2slide3-bubble-tablet.png" loading="lazy" alt="" class="m2slide3-bubble2-tablet"><img src="images/m4-slide6-bubble-3.png" loading="lazy" alt="" class="m2slide3bubble-mobile">
+          </div>
+        </div>
+        <div class="assets"><img src="images/Group-15.png" loading="lazy" data-w-id="6c7d03be-78c0-a0e7-001b-b6c89da784ed" sizes="(max-width: 991px) 100vw, (max-width: 1279px) 45vw, (max-width: 1919px) 50vw, 743px" alt="" srcset="images/Group-15-p-500.png 500w, images/Group-15-p-800.png 800w, images/Group-15.png 900w" class="slide3img1"><img src="images/Group-14.png" loading="lazy" data-w-id="d65614e9-eb8f-ea7e-c8ef-c0841e9009b4" sizes="(max-width: 991px) 100vw, (max-width: 1279px) 45vw, (max-width: 1919px) 50vw, 743px" alt="" srcset="images/Group-14-p-500.png 500w, images/Group-14-p-800.png 800w, images/Group-14.png 900w" class="slide3img2"><img src="images/m2slide3-avatar-1.png" loading="lazy" alt="" class="m2-slide3-avatar-1"><img src="images/m2slide3-avatar-2.png" loading="lazy" alt="" class="m2-slide3-avatar-2"></div>
+      </div>
+      <section class="section-5 section"></section>
+      <section data-w-id="0c25e8a5-56c1-407e-2072-42db9511d972" class="section-6 section"></section>
+    </div>
+    <section class="slider_section section">
+      <div class="slider-div-block"><img src="images/Group-12.png" loading="lazy" alt="" class="pc-image-slide4">
+        <div class="slider_vector_2-copy w-embed"><svg width="269" height="214" viewbox="0 0 269 214" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M215.823 15.3671C212.785 11.8789 204.687 -4.02948 212.085 7.8454C222.848 25.123 230.605 43.8446 239.049 61.9352C247.953 81.0106 257.485 100.039 265.542 119.369C268.957 127.561 264.669 124.205 260.556 119.53C242.681 99.2139 227.791 77.0757 209.894 56.7018C194.049 38.6631 176.014 15.9441 153.607 3.18273C140.448 -4.31161 161.281 26.3847 162.014 27.413C173.843 44.0101 187.703 59.4944 201.079 75.2064C202.466 76.8363 230.615 111.098 227.547 111.657C223.939 112.314 220.887 108.488 218.023 106.363C206.327 97.6835 195.781 87.8276 185.074 78.2907C168.611 63.6283 151.007 43.7257 129.44 34.2339C126.529 32.9529 123.475 31.7064 124.762 35.8239C127.608 44.9249 136.296 54.3829 142.246 62.0978C155.326 79.0586 171.188 94.4589 183.952 111.556C193.55 124.413 177.278 116.064 171.277 112.679C150.359 100.878 131.703 85.7981 109.497 75.7531C102.275 72.486 89.2204 68.3908 94.256 80.0139C101.365 96.4227 118.464 110.306 131.697 123.278C133.05 124.604 153.802 143.167 139.15 134.091C118.991 121.604 99.3728 108.585 77.7534 97.986C70.6303 94.4939 59.358 89.5023 51.508 86.8213C49.801 86.2383 40.8472 83.3335 37.6591 84.191C29.7405 86.3208 57.4288 109.736 58.2888 110.491C72.4845 122.944 89.2253 134.404 101.748 148.154C102.853 149.367 103.853 150.933 101.071 149.72C92.2222 145.862 83.855 139.886 75.8057 135.016C58.7426 124.692 41.7731 113.672 23.3189 105.264C20.8797 104.153 -4.79143 93.8617 5.29565 105.059C17.3107 118.396 34.5144 128.264 49.2514 139.175C52.6788 141.712 81.0671 160.123 78.0231 165.754C75.1886 170.997 45.7028 158.772 42.9005 157.828C40.6117 157.057 9.37009 144.243 7.24919 148.29C5.00658 152.57 33.0539 169.082 35.4936 170.784C55.3379 184.625 75.4574 197.974 95.8098 211.241" stroke="#FFA800" stroke-width="4" stroke-linecap="round"></path>
+          </svg></div>
+        <div data-delay="4000" data-animation="slide" class="slider w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
+          <div class="mask w-slider-mask">
+            <div class="slide w-slide">
+              <div class="slide_content">
+                <h3 class="montserrat-800-32-39 uppercase">Як же це сталося?</h3>
+              </div>
+            </div>
+            <div class="slide w-slide">
+              <div class="slide_content">
+                <h3 class="montserrat-800-32-39 uppercase align-center">1. Компрометація постачальника</h3>
+                <div class="montserrat-500-22-30 dark-violet center">Один з постачальників компанії мав доступ до внутрішньої мережі компанії Target. Цей доступ був захищений ненадійним паролем, який зловмисники змогли легко зламати.</div>
+              </div>
+            </div>
+            <div class="slide w-slide">
+              <div class="slide_content">
+                <h3 class="montserrat-800-32-39 uppercase center">2. Використання облікових даних постачальника</h3>
+                <div class="montserrat-500-22-30 dark-violet center">Використовуючи облікові дані постачальника з адміністративними правами, зловмисники проникли в систему компанії Target.</div>
+              </div>
+            </div>
+            <div class="slide w-slide">
+              <div class="slide_content">
+                <h3 class="montserrat-800-32-39 uppercase center">3. Збір даних</h3>
+                <div class="montserrat-500-22-30 dark-violet center">У внутрішній мережі Target хакери встановили шкідливе ПЗ на касових терміналах компанії, що дозволило їм збирати дані кредитних карток клієнтів у режимі реального часу.</div>
+              </div>
+            </div>
+          </div>
+          <div class="left-arrow w-slider-arrow-left">
+            <div class="icon w-icon-slider-left"></div>
+          </div>
+          <div class="right-arrow w-slider-arrow-right">
+            <div class="icon-2 w-icon-slider-right"></div>
+          </div>
+          <div class="slide-nav w-slider-nav w-round"></div>
+        </div>
+      </div>
+    </section>
+    <section id="m2section2" class="dropdown_section section">
+      <div class="dropdown_wrapper"><img src="images/image-1_1.png" loading="lazy" width="308" sizes="(max-width: 991px) 100vw, 308px" alt="" srcset="images/image-1_1-p-500.png 500w, images/image-1_1.png 616w" class="image-12">
+        <div class="div-block-17-copy show">
+          <h2 class="montserrat-800-32-39 capitalize"><span class="highlight-word-2">Надійний</span> пароль є ключовим елементом захисту вашої інформації в інтернеті</h2>
+          <p class="montserrat-700-22-30 dark_violet">Щоб забезпечити безпеку, пароль повинен бути:</p>
+        </div>
+        <div data-hover="false" data-delay="0" data-w-id="3989cc4e-7f0a-fda1-1278-56abadc4207c" style="height:94px;color:rgb(82,46,146)" class="dropdown w-dropdown">
+          <div data-w-id="3989cc4e-7f0a-fda1-1278-56abadc4207d" class="dropdown_toggle w-dropdown-toggle">
+            <div>Довгим</div>
+          </div>
+          <nav class="dropdown-list w-dropdown-list">
+            <p class="montserrat-500-22-30">Чим довший пароль, тим важче його зламати. Рекомендується використовувати паролі довжиною не менше <strong>12-16 символів</strong>.</p>
+          </nav>
+        </div>
+        <div data-hover="false" data-delay="0" data-w-id="09e04d7b-adb9-2235-2304-79286fac3b66" style="height:94px;color:rgb(82,46,146)" class="dropdown w-dropdown">
+          <div class="dropdown_toggle w-dropdown-toggle">
+            <div>Складним</div>
+          </div>
+          <nav class="dropdown-list w-dropdown-list">
+            <p class="montserrat-500-22-30">Складний пароль – це пароль, що містить комбінацію великих і малих літер, цифр та спеціальних символів (наприклад, !, @, #, $, %).</p>
+          </nav>
+        </div>
+        <div data-hover="false" data-delay="0" data-w-id="e48b3334-33d6-6478-2e29-968be7c27733" style="height:94px;color:rgb(82,46,146)" class="dropdown w-dropdown">
+          <div class="dropdown_toggle w-dropdown-toggle">
+            <div>Унікальним</div>
+          </div>
+          <nav class="dropdown-list w-dropdown-list">
+            <p class="montserrat-500-22-30">Використовуйте різні паролі для різних облікових записів, щоб компрометація одного пароля не призвела до зламу інших ваших акаунтів.</p>
+          </nav>
+        </div><img src="images/image-2.png" loading="lazy" width="466" sizes="(max-width: 991px) 100vw, 466px" alt="" srcset="images/image-2-p-500.png 500w, images/image-2-p-800.png 800w, images/image-2.png 932w" class="image-13">
+      </div>
+    </section>
+    <section class="text_section section _100vh relative"><img src="images/m2s7-img1.png" loading="lazy" width="896.5" alt="" class="m2slide6img1"><img src="images/OBJECT.svg" loading="lazy" alt="" class="image_6"><img src="images/m2s7-img2.png" loading="lazy" width="896.5" alt="" class="m2slide6img2"><img src="images/OBJECT-1.svg" loading="lazy" width="193" alt="" class="image-5">
+      <div class="content">
+        <div class="popup">
+          <div class="div-block-18">
+            <h3 class="montserrat-800-32-39 uppercase center max-w-960">Створіть надійний пароль</h3>
+            <h3 class="montserrat-800-32-39 uppercase center max-w-960"><span class="highlight">за 3 кроки</span></h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="image-text-w section">
+      <div class="div-block-36">
+        <div class="div-block-34 max-w-530">
+          <h2 class="montserrat-800-32-39 capitalize text-align-left">Почніть з базової фрази або слів</h2>
+          <ul role="list" class="montserrat-500-22-30 _2b0a64">
+            <li>Уникайте використання поширених слів або послідовностей, наприклад password123 або 12345678</li>
+            <li>Не використовуйте очевидні слова, які пов&#x27;язані з вами, такі як ваше ім&#x27;я, дата народження, адреса або номери телефонів</li>
+            <li>Використовуйте фразу або речення, яке легко запам&#x27;ятати, але важко зламати</li>
+          </ul>
+          <div class="div-block-38">
+            <p>MyCatLikesToNap</p>
+          </div>
+        </div>
+        <div class="div-block-35 max-h-50"><img src="images/man-1.png" loading="lazy" sizes="(max-width: 479px) 96vw, (max-width: 991px) 546px, (max-width: 1279px) 45vw, (max-width: 1919px) 49vw, 940px" srcset="images/man-1-p-500.png 500w, images/man-1-p-800.png 800w, images/man-1.png 979w" alt="" class="image-124"></div>
+      </div>
+    </section>
+    <section class="image-text-w section">
+      <div class="div-block-36 align-bottom">
+        <div class="div-block-34 align-bottom-om-mobile-port max-w-530-mobile">
+          <h2 class="montserrat-800-32-39 capitalize text-align-left">Змініть деякі літери на цифри та спеціальні символи</h2>
+          <ul role="list" class="montserrat-500-22-30 _2b0a64">
+            <li>Використовуйте комбінацію великих і малих літер, цифр та спеціальних символів</li>
+          </ul>
+          <div class="div-block-38">
+            <p>MyC<span class="yellow">@</span>tL<span class="yellow">1</span>k<span class="yellow">3</span>sT<span class="yellow">0</span>N<span class="yellow">@</span>p!</p>
+          </div>
+        </div>
+        <div class="div-block-35 max-h-50"><img src="images/man-2.png" loading="lazy" sizes="(max-width: 479px) 96vw, (max-width: 991px) 546px, (max-width: 1279px) 45vw, (max-width: 1919px) 49vw, 940px" srcset="images/man-2-p-500.png 500w, images/man-2-p-800.png 800w, images/man-2.png 979w" alt="" class="image-124"></div>
+      </div>
+    </section>
+    <section class="image-text-w section">
+      <div class="div-block-36 align-bottom">
+        <div class="div-block-34 align-bottom-om-mobile-port max-w-530-mobile">
+          <h2 class="montserrat-800-32-39 capitalize text-align-left">Додайте додаткові символи для довжини та складності</h2>
+          <ul role="list" class="montserrat-500-22-30 _2b0a64">
+            <li>Довжина пароля має бути щонайменше 12 символів</li>
+          </ul>
+          <div class="div-block-38">
+            <p>MyC@tL1k3sT0N@p!<span class="yellow">2024</span></p>
+          </div>
+        </div>
+        <div class="div-block-35 max-h-50"><img src="images/man-3.png" loading="lazy" sizes="(max-width: 479px) 96vw, (max-width: 991px) 546px, (max-width: 1279px) 45vw, (max-width: 1919px) 49vw, 940px" srcset="images/man-3-p-500.png 500w, images/man-3-p-800.png 800w, images/man-3.png 979w" alt="" class="image-124"></div>
+      </div>
+    </section>
+    <section class="image-text-w section">
+      <div class="div-block-36 align-bottom">
+        <div class="div-block-34 remove-padding">
+          <div class="div-block-39 relative"><img src="images/m2slide11-bubble.svg" loading="lazy" alt="" class="image-140"><img src="images/m2slide11-bubble-mobile.svg" loading="lazy" alt="" class="only-mobile-p">
+            <p class="montserrat-500-22-30 padding-botom">А це реально запам’ятати десяток таких довгих і складних паролів для усіх акаунтів?</p>
+          </div>
+          <div class="div-block-38">
+            <p>MyC@tL1k3sT0N@p!2024</p>
+          </div>
+        </div>
+        <div class="div-block-35 max-h-50"><img src="images/man-4.png" loading="lazy" sizes="(max-width: 479px) 96vw, (max-width: 991px) 546px, (max-width: 1279px) 45vw, (max-width: 1919px) 49vw, 940px" srcset="images/man-4-p-500.png 500w, images/man-4-p-800.png 800w, images/man-4.png 979w" alt="" class="image-124"></div>
+      </div>
+    </section>
+    <section id="m2section3" class="img-text_section remove-padding section">
+      <div class="img-text m-height-100">
+        <div class="div-block-1367 _530-on-small"><img src="images/image.png" loading="lazy" sizes="100vw" srcset="images/image-p-500.png 500w, images/image.png 560w" alt="" class="img-text__img max-width-100--on-large"></div>
+        <div class="img-text__text-block m-width-mobile">
+          <h2 class="montserrat-800-32-39 capitalize">Використовуйте<br><span class="highlight-word-3 yellow">менеджери паролів</span></h2>
+          <p class="montserrat-500-22-30 _2b0a64">Це програмні інструменти, що автоматизують процес створення та зберігання складних паролів, забезпечуючи безпеку і зручність користувачів</p>
+          <p class="montserrat-500-22-30 _2b0a64">Прикладами надійних менеджерів паролів є <span class="montserrat-700-22-30">LastPass, 1Password, Dashlane і Bitwarden</span></p>
+        </div>
+      </div>
+    </section>
+    <section class="dropdown_section position-relative section"><img src="images/Group-10.png" loading="lazy" width="Auto" sizes="(max-width: 991px) 100vw, (max-width: 1279px) 25vw, 30vw" alt="" srcset="images/Group-10-p-500.png 500w, images/Group-10.png 560w" class="image-18">
+      <div class="dropdown_wrapper"><img src="images/note.png" loading="lazy" sizes="100vw" srcset="images/note-p-500.png 500w, images/note.png 532w" alt="" class="image-17-copy">
+        <h2 class="montserrat-800-32-39 capitalize">Принципи роботи менеджерів паролів</h2>
+        <div data-hover="false" data-delay="0" data-w-id="2a78ac9e-76fc-2da6-81de-6a1b8480e0b2" style="height:94px;color:rgb(82,46,146)" class="dropdown w-dropdown">
+          <div class="dropdown_toggle w-dropdown-toggle">
+            <div><strong>Зберігання паролів</strong></div>
+          </div>
+          <nav class="dropdown-list w-dropdown-list">
+            <p class="montserrat-500-22-30">Менеджери паролів зберігають всі ваші паролі у зашифрованому вигляді в базі даних, яка захищена головним паролем (master password). Лише власник головного пароля має доступ до всіх інших паролів.</p>
+          </nav>
+        </div>
+        <div data-hover="false" data-delay="0" data-w-id="d1973445-f8ed-c24b-e6cd-8dfa952713cc" style="height:94px;color:rgb(82,46,146)" class="dropdown w-dropdown">
+          <div class="dropdown_toggle w-dropdown-toggle">
+            <div><strong>Генерація паролів</strong></div>
+          </div>
+          <nav class="dropdown-list w-dropdown-list">
+            <p class="montserrat-500-22-30">Менеджери паролів можуть генерувати різні складні та унікальні паролі для кожного вашого акаунту. Це значно підвищує рівень безпеки.</p>
+          </nav>
+        </div>
+        <div data-hover="false" data-delay="0" data-w-id="2a78ac9e-76fc-2da6-81de-6a1b8480e0ab" style="height:94px;color:rgb(82,46,146)" class="dropdown w-dropdown">
+          <div class="dropdown_toggle w-dropdown-toggle">
+            <div><strong>Синхронізація</strong></div>
+          </div>
+          <nav class="dropdown-list w-dropdown-list">
+            <p class="montserrat-500-22-30">Багато менеджерів паролів пропонують можливість синхронізації даних між різними пристроями (комп&#x27;ютерами, смартфонами, планшетами), що забезпечує доступ до ваших паролів незалежно від того, який пристрій ви використовуєте.</p>
+          </nav>
+        </div>
+        <div data-hover="false" data-delay="0" data-w-id="2a78ac9e-76fc-2da6-81de-6a1b8480e0a1" style="height:94px;color:rgb(82,46,146)" class="dropdown w-dropdown">
+          <div class="dropdown_toggle w-dropdown-toggle">
+            <div><strong>Автоматичне заповнення</strong></div>
+          </div>
+          <nav class="dropdown-list w-dropdown-list">
+            <p class="montserrat-500-22-30">Менеджери паролів можуть автоматично заповнювати поля для входу на веб-сайтах, зберігаючи час і зменшуючи ймовірність помилок під час введення паролів вручну.</p>
+          </nav>
+        </div>
+      </div>
+    </section>
+    <section class="slider_section section">
+      <div class="slider-intro-div">
+        <h2 class="montserrat-800-32-39 uppercase align-center"><span class="highlight-word-2">5 переваг</span> менеджерів паролів</h2>
+      </div>
+      <div class="slider-div-block align-top"><img src="images/image-1.png" loading="lazy" alt="" class="module2slide14">
+        <div data-delay="4000" data-animation="slide" class="slider align-top height-auto w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
+          <div class="mask w-slider-mask">
+            <div class="slide w-slide">
+              <div class="slide_content align-top-mobile height-auto remove-padding">
+                <h3 class="montserrat-800-32-39 uppercase align-center">Шифрування даних</h3>
+                <p class="montserrat-500-22-30 dark-violet text-align-center">Дані в менеджерах паролів зберігаються у зашифрованому вигляді, що робить їх недоступними для зловмисників навіть у разі, якщо вони отримають доступ до вашого пристрою або бази даних менеджера паролів.</p>
+              </div>
+            </div>
+            <div class="slide w-slide">
+              <div class="slide_content align-top-mobile height-auto remove-padding">
+                <h3 class="montserrat-800-32-39 uppercase">Головний пароль</h3>
+                <div class="montserrat-500-22-30 dark-violet center">Головний пароль (master password) є ключем до всіх інших паролів. Це єдиний пароль, який вам потрібно запам&#x27;ятати. Він повинен бути дуже складним і унікальним, адже його компрометація означає компрометацію усіх ваших паролів.</div>
+              </div>
+            </div>
+            <div class="slide w-slide">
+              <div class="slide_content align-top-mobile height-auto remove-padding">
+                <h3 class="montserrat-800-32-39 uppercase center">Двофакторна автентифікація (2FA)</h3>
+                <div class="montserrat-500-22-30 dark-violet center">Багато менеджерів паролів підтримують двофакторну автентифікацію, що є додатковим рівнем захисту. Навіть якщо зловмисник знатиме ваш головний пароль, він не зможе отримати доступ до ваших даних без другого фактора автентифікації, наприклад, коду з вашого смартфона.</div>
+              </div>
+            </div>
+            <div class="slide w-slide">
+              <div class="slide_content align-top-mobile height-auto remove-padding">
+                <h3 class="montserrat-800-32-39 uppercase center">Захист від фішингових атак</h3>
+                <div class="montserrat-500-22-30 dark-violet center">Менеджери паролів автоматично заповнюють поля для входу лише на легітимних веб-сайтах, що допомагає захиститися від фішингових атак. Якщо ви потрапите на фішинговий сайт, менеджер паролів не заповнить поля, оскільки URL-адреса не співпадатиме з оригінальною.</div>
+              </div>
+            </div>
+            <div class="slide w-slide">
+              <div class="slide_content align-top-mobile height-auto remove-padding">
+                <h3 class="montserrat-800-32-39 uppercase center">Регулярні оновлення</h3>
+                <div class="montserrat-500-22-30 dark-violet center">Виробники менеджерів паролів регулярно випускають оновлення, які містять нові функції безпеки і виправлення відомих вразливостей. Це допомагає забезпечити високий рівень захисту ваших даних.</div>
+              </div>
+            </div>
+          </div>
+          <div class="left-arrow w-slider-arrow-left">
+            <div class="icon w-icon-slider-left"></div>
+          </div>
+          <div class="right-arrow w-slider-arrow-right">
+            <div class="icon-2 w-icon-slider-right"></div>
+          </div>
+          <div class="slide-nav w-slider-nav w-slider-nav-invert w-round"></div>
+        </div>
+      </div>
+    </section>
+    <section id="m2section4" class="timeline-section section">
+      <div class="div-block-27"><img src="images/imageobject.png" loading="lazy" sizes="(max-width: 991px) 100vw, (max-width: 1279px) 456px, (max-width: 1439px) 380px, 494px" srcset="images/imageobject-p-500.png 500w, images/imageobject.png 579w" alt="" class="image-19">
+        <p class="montserrat-700-22-30 dark_violet text-align-center padding-bottom-40">Регулярний перегляд та оновлення паролів є ключовими аспектами захисту ваших облікових записів</p>
+        <div class="timeline-items margin-top-20px">
+          <h3 class="montserrat-700-22-30 _2b0a64 text-align-center">Регулярно змінюйте паролі</h3>
+          <p class="montserrat-500-22-30 text-align-center _2b0a64">Рекомендується змінювати паролі принаймні <span class="montserrat-700-22-30 _2b0a64">кожні 3-6 місяців</span>, навіть якщо не було виявлено порушень безпеки.</p>
+        </div>
+        <div class="line small-on-mobile"></div>
+        <div data-w-id="2e59c36d-4489-f533-9a93-35a4d05ff63a" style="opacity:0" class="timeline-items">
+          <h3 class="montserrat-700-22-30 _2b0a64 text-align-center">Обов’язково змініть пароль після порушення безпеки</h3>
+          <p class="montserrat-500-22-30 text-align-center _2b0a64">Якщо ви дізналися про порушення безпеки на платформі, де у вас є обліковий запис, негайно змініть свій пароль на новий, унікальний і надійний.</p>
+        </div>
+        <div data-w-id="70d371d5-5d4b-307b-5805-6066af7c9495" style="opacity:0" class="line small-on-mobile"></div>
+        <div data-w-id="5f1add2c-72eb-90de-5dbe-a8afd47fffec" style="opacity:0" class="timeline-items">
+          <h3 class="montserrat-700-22-30 _2b0a64 text-align-center">Уникайте повторного використання паролів</h3>
+          <p class="montserrat-500-22-30 text-align-center _2b0a64">Використовуйте різні паролі для різних облікових записів, щоб компрометація одного пароля не призвела до компрометації інших акаунтів.</p>
+        </div>
+      </div>
+    </section>
+    <section class="slider_section section">
+      <div class="slider-intro-div">
+        <p class="montserrat-700-22-30 dark_violet text-align-center">Постійний моніторинг стану ваших паролів дозволяє випереджати потенційні загрози та забезпечувати високий рівень безпеки</p>
+      </div>
+      <div class="slider-div-block align-top">
+        <div data-delay="4000" data-animation="slide" class="slider align-top height-auto w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
+          <div class="mask w-slider-mask">
+            <div class="slide w-slide">
+              <div class="slide_content align-top-mobile height-auto remove-padding">
+                <h3 class="montserrat-800-32-39 uppercase">Have I Been Pwned</h3>
+                <a href="https://haveibeenpwned.com/" target="_blank" class="montserrat-700-22-30 _179dd9">https://haveibeenpwned.com/</a>
+                <p class="montserrat-500-22-30 black-violet align-center">Онлайн-сервіс, який дозволяє користувачам перевірити, чи були їхні облікові дані скомпрометовані в результаті відомих витоків даних.</p>
+              </div>
+            </div>
+            <div class="slide w-slide">
+              <div class="slide_content align-top-mobile height-auto remove-padding">
+                <h3 class="montserrat-800-32-39 uppercase">Breach Directory</h3>
+                <a href="https://breachdirectory.org/" target="_blank" class="montserrat-700-22-30 _179dd9">https://breachdirectory.org/</a>
+                <p class="montserrat-500-22-30 black-violet align-center">Подібний сервіс, який надає інформацію про порушення безпеки і дозволяє користувачам перевіряти свої облікові дані.</p>
+              </div>
+            </div>
+            <div class="slide w-slide">
+              <div class="slide_content align-top-mobile height-auto remove-padding">
+                <h3 class="montserrat-800-32-39 uppercase">Менеджери паролів</h3>
+                <p class="montserrat-500-22-30 black-violet align-center">Багато сучасних менеджерів паролів, такі як LastPass, 1Password і Dashlane, мають вбудовані функції моніторингу паролів, які попереджають користувачів про можливі порушення безпеки.</p>
+              </div>
+            </div>
+          </div>
+          <div class="left-arrow w-slider-arrow-left">
+            <div class="icon w-icon-slider-left"></div>
+          </div>
+          <div class="right-arrow w-slider-arrow-right">
+            <div class="icon-2 w-icon-slider-right"></div>
+          </div>
+          <div class="slide-nav position-statick w-slider-nav w-slider-nav-invert w-round"></div>
+        </div>
+      </div><img src="images/image_2.png" loading="lazy" alt="" class="slide16-img-right"><img src="images/image_1.png" loading="lazy" sizes="100vw" srcset="images/image_1-p-500.png 500w, images/image_1.png 640w" alt="" class="image-20">
+    </section>
+    <section data-w-id="72d5074c-8512-ddcd-16ea-db027c3c634c" class="slide17-18">
+      <div class="div-block-33">
+        <div class="text">
+          <h2 class="montserrat-800-32-39 capitalize"><span class="highlight-word-2">Багатофакторна автентифікація (БФА)</span> є переломним рішенням у сфері онлайн-безпеки</h2>
+          <p data-w-id="72d5074c-8512-ddcd-16ea-db027c3c6353" class="montserrat-500-22-30 black-violet">Цей додатковий рівень захисту знижує ризик несанкціонованого доступу до облікових записів та конфіденційної інформації, навіть якщо пароль був зламаний</p>
+        </div>
+        <div class="img-copy"><img src="images/tv.png" loading="lazy" alt="" class="tv"><img src="images/hand.png" loading="lazy" data-w-id="3374a7e7-5f23-e1bb-fed2-a1aae5717ba2" alt="" class="hand"></div>
+      </div>
+      <div id="m2section5" class="div-block-31 section"></div>
+      <div data-w-id="72d5074c-8512-ddcd-16ea-db027c3c6359" class="div-block-32 section"></div>
+    </section>
+    <section class="section-text-on-white-list section">
+      <div class="text-on-white"><img src="images/Group-11.png" loading="lazy" sizes="100vw" srcset="images/Group-11-p-500.png 500w, images/Group-11.png 725w" alt="" class="image-25"><img src="images/Group-12_1.png" loading="lazy" sizes="100vw" srcset="images/Group-12_1-p-500.png 500w, images/Group-12_1-p-800.png 800w, images/Group-12_1.png 982w" alt="" class="image-25-copy">
+        <div class="div-block-45">
+          <h2 class="montserrat-800-32-39 uppercase align-center">Багатофакторна автентифікація (БФА) –</h2>
+          <p class="montserrat-500-22-30 dark-violet center">це метод підтвердження особи користувача, який вимагає два або більше незалежних факторів автентифікації, для доступу до ресурсу</p>
+        </div>
+      </div>
+    </section>
+    <section class="dropdown_section section">
+      <div class="dropdown_wrapper"><img src="images/image_6.png" loading="lazy" width="Auto" sizes="100vw" alt="" srcset="images/image_6-p-500.png 500w, images/image_6.png 740w" class="monitor-and-human">
+        <div class="div-block-intro-text">
+          <h2 class="montserrat-800-32-39 uppercase">Такими <span class="highlight-word-2">факторами</span> може бути</h2>
+        </div>
+        <div data-hover="false" data-delay="0" data-w-id="54af68e8-f263-72d9-45d8-7bdf70a6ea8c" style="height:94px;color:rgb(82,46,146)" class="dropdown w-dropdown">
+          <div class="dropdown_toggle w-dropdown-toggle">
+            <div>щось, що користувач ЗНАЄ</div>
+          </div>
+          <nav class="dropdown-list w-dropdown-list">
+            <p class="montserrat-500-22-30 _2b0a64"><strong>1. SMS-коди<br>‍<br>‍</strong>Користувач отримує одноразовий код через SMS, який потрібно ввести разом із паролем.<br>‍<br>‍<strong>Переваги:</strong> легко налаштовується та використовується<br>‍<br><strong>Недоліки:</strong> вразливість до атак на основі перехоплення повідомлень<br><br>‍<strong>2. Коди додатків автентифікації<br>‍</strong>Додатки, такі як Google Authenticator або Authy, генерують одноразові коди на основі часу.<br>‍<br><strong>Переваги:</strong> вищий рівень безпеки порівняно з SMS-кодами, офлайн-доступ<br>‍<br><strong>Недоліки:</strong> потребує встановлення додаткового ПЗ</p>
+          </nav>
+        </div>
+        <div data-hover="false" data-delay="0" data-w-id="54af68e8-f263-72d9-45d8-7bdf70a6ea96" style="height:94px;color:rgb(82,46,146)" class="dropdown w-dropdown">
+          <div class="dropdown_toggle w-dropdown-toggle">
+            <div>щось, що користувач МАЄ</div>
+          </div>
+          <nav class="dropdown-list w-dropdown-list">
+            <p class="montserrat-500-22-30 _2b0a64"><strong>Апаратні токени<br><br>‍</strong>Фізичні пристрої, такі як YubiKey, які потрібно підключити до комп&#x27;ютера або використовувати безконтактно.<br>‍<br><strong>Переваги:</strong> найвищий рівень безпеки, стійкість до фішингових атак<br>‍<br><strong>Недоліки:</strong> може бути втраченим або пошкодженим, висока вартість пристрою</p>
+          </nav>
+        </div>
+        <div data-hover="false" data-delay="0" data-w-id="54af68e8-f263-72d9-45d8-7bdf70a6ea9d" style="height:94px;color:rgb(82,46,146)" class="dropdown w-dropdown">
+          <div class="dropdown_toggle w-dropdown-toggle">
+            <div>щось, чим користувач Є</div>
+          </div>
+          <nav class="dropdown-list w-dropdown-list">
+            <p class="montserrat-500-22-30 _2b0a64">Біометричні дані<strong><br><br>‍</strong>Біометрична автентифікація – це метод перевірки особи, що базується на унікальних фізичних або поведінкових характеристиках людини. Найпоширеніші методи біометричної автентифікації – розпізнавання відбитків пальців Touch ID та розпізнавання обличчя Face ID.<br>‍<br>‍<strong>Переваги:</strong> зручність і швидкість використання, неможливість забути, унікальність, а отже висока безпека<br>‍<br><strong>Недоліки:</strong> вартість впровадження, можливість помилкових спрацьовувань, неможливість зміни</p>
+          </nav>
+        </div>
+      </div>
+    </section>
+    <section class="slider_section section">
+      <div class="div-block-28 width">
+        <p class="montserrat-800-32-39 uppercase align-center">Розглянемо, як <span class="highlight-word-3 yellow">активувати БФА</span> на прикладі сервісів Google</p>
+      </div>
+      <div class="slider-div-block align-top"><img src="images/image-1_2.png" loading="lazy" sizes="100vw" srcset="images/image-1_2-p-500.png 500w, images/image-1_2.png 643w" alt="" class="m2s21-image-and-logo">
+        <div data-delay="4000" data-animation="slide" class="slider align-top height-auto w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
+          <div class="mask remove-padding w-slider-mask">
+            <div class="slide w-slide">
+              <div class="slide_content align-top-mobile height-auto remove-padding">
+                <p class="montserrat-500-22-30 dark-violet">Компанія Google впровадила багатофакторну автентифікацію після того, як у 2010 році стала жертвою серії цільових фішингових атак, відомих як &quot;Operation Aurora&quot;, спрямованих на крадіжку паролів облікових записів користувачів.</p>
+              </div>
+            </div>
+            <div class="slide w-slide">
+              <div class="slide_content align-top-mobile height-auto remove-padding">
+                <p class="montserrat-500-22-30 dark-violet">В якості двофакторної автентифікації Google пропонує використовувати:</p>
+                <ul role="list" class="montserrat-500-22-30 dark-violet">
+                  <li>Одноразові коди через SMS або сповіщення від Google</li>
+                  <li>Додатки автентифікації Google Authenticator</li>
+                  <li>Апаратні токени YubiKey</li>
+                </ul>
+              </div>
+            </div>
+            <div class="slide w-slide">
+              <div class="slide_content align-top-mobile height-auto remove-padding">
+                <p class="montserrat-700-22-30 dark_violet">Покрокова інструкція активації для сервісів Google</p>
+                <ol role="list" class="montserrat-500-22-30 dark-violet">
+                  <li>Увійдіть у свій обліковий запис Google</li>
+                  <li>Перейдіть до &quot;Мій обліковий запис&quot; (My Account)</li>
+                  <li>Виберіть &quot;Безпека&quot; (Security)</li>
+                  <li>У розділі &quot;Вхід до Google&quot; виберіть &quot;Двофакторна автентифікація&quot; (2-Step Verification)</li>
+                  <li>Натисніть &quot;Почати&quot; (Get Started) і дотримуйтесь інструкцій на екрані</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <div class="left-arrow w-slider-arrow-left">
+            <div class="icon w-icon-slider-left"></div>
+          </div>
+          <div class="right-arrow w-slider-arrow-right">
+            <div class="icon-2 w-icon-slider-right"></div>
+          </div>
+          <div class="slide-nav position-statick w-slider-nav w-slider-nav-invert w-round"></div>
+        </div>
+      </div>
+    </section>
+    <section class="slide22-24">
+      <div class="slide22-24-content">
+        <div class="content-copy">
+          <div data-w-id="4039b856-b64c-a059-4e93-d6a66e085eb1" class="m2slide22-buuble-1 location1">
+            <p class="montserrat-700-22-30 black-violet position">Ознайомтеся з інструкціями з активації БФА на інших популярних ресурсах</p><img loading="lazy" src="images/Vector.png" alt="" class="m2slide22-bubble-large"><img loading="lazy" src="images/Vector.png" alt="" class="m2slide22-bubble-mobile">
+          </div>
+          <div data-w-id="4039b856-b64c-a059-4e93-d6a66e085eb5" class="m2slide23-buuble-2 slide22bubble2"><img loading="lazy" src="images/Vector-2.svg" alt="" class="m2slide23-bubble"><img loading="lazy" src="images/m2slide23-bubble-mobile.svg" alt="" class="m2slide23-bubble-mobile">
+            <ul role="list" class="montserrat-700-22-30 color-179dd9 paddings">
+              <li class="link-color-179dd9">
+                <a href="https://www.facebook.com/help/148233965247823" target="_blank" class="link-color-179dd9">Facebook</a>
+              </li>
+              <li>
+                <a href="https://help.instagram.com/566810106808145?helpref=faq_content" target="_blank" class="link-color-179dd9">Instagram</a>
+              </li>
+              <li>
+                <a href="https://help.x.com/uk/managing-your-account/two-factor-authentication" target="_blank" class="link-color-179dd9">X (Twitter)</a>
+              </li>
+              <li>
+                <a href="https://support.microsoft.com/uk-ua/account-billing/%D0%B2%D0%B8%D0%BA%D0%BE%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%8F-%D0%B4%D0%B2%D0%BE%D0%B5%D1%82%D0%B0%D0%BF%D0%BD%D0%BE%D1%97-%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D1%96%D1%80%D0%BA%D0%B8-%D0%B7-%D0%BE%D0%B1%D0%BB%D1%96%D0%BA%D0%BE%D0%B2%D0%B8%D0%BC-%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%BE%D0%BC-microsoft-c7910146-672f-01e9-50a0-93b4585e7eb4" target="_blank" class="link-color-179dd9">Microsoft (Outlook, Office 365)</a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/help/linkedin/answer/a1381088/" target="_blank" class="link-color-179dd9">LinkedIn</a>
+              </li>
+              <li>
+                <a href="https://support.apple.com/uk-ua/102660" target="_blank" class="link-color-179dd9">AppleID</a>
+              </li>
+            </ul>
+          </div>
+          <div data-w-id="4039b856-b64c-a059-4e93-d6a66e085eca" class="m2slide24-bubble3-2">
+            <p class="montserrat-500-22-30 dark-violet position-bullet3">Знайдіть опцію &quot;Двофакторна автентифікація&quot; у налаштуваннях безпеки свого онлайн-банкінг акаунту</p><img loading="lazy" src="images/Vector-3.svg" alt="" class="m2slide24-bubble-large"><img loading="lazy" src="images/m2slide24-buuble3.svg" alt="" class="m2slide24-buuble-tablet"><img loading="lazy" src="images/m2slide24-bubble-mobile.svg" alt="" class="m2slide24-buuble-mobile">
+          </div>
+        </div>
+        <div class="assets-anim3">
+          <div class="m2slide22assets"><img sizes="100vw" srcset="images/girl-1-p-500.png 500w, images/girl-1-p-800.png 800w, images/girl-1.png 843w" alt="" src="images/girl-1.png" loading="lazy" class="slide22img1"><img src="images/m2slide22-assets-mobile.png" loading="lazy" alt="" class="slide22img1-mobile"></div>
+          <div class="m2slide23assets"><img sizes="100vw" srcset="images/slide22-img2-p-500.png 500w, images/slide22-img2-p-800.png 800w, images/slide22-img2.png 843w" alt="" src="images/slide22-img2.png" loading="lazy" class="slide23-img1"><img src="images/m2slide23-assets-mobile.png" loading="lazy" alt="" class="slide23img1-mobile"></div>
+          <div class="m2slide24assets"><img sizes="100vw" srcset="images/slide22-img3-p-500.png 500w, images/slide22-img3-p-800.png 800w, images/slide22-img3.png 843w" alt="" src="images/slide22-img3.png" loading="lazy" class="slide24-img1"><img src="images/m2slide24-assets-mobile.png" loading="lazy" alt="" class="slide24img1-mobile"></div>
+        </div>
+      </div>
+      <div data-w-id="4039b856-b64c-a059-4e93-d6a66e085ed2" class="div-block-1342 section"></div>
+      <div data-w-id="4039b856-b64c-a059-4e93-d6a66e085ed3" class="div-block-1343 section"></div>
+      <div data-w-id="4039b856-b64c-a059-4e93-d6a66e085ed4" class="div-block-1341 section"></div>
+    </section>
+    <section id="m2section6" class="section-text-on-note section">
+      <div class="wrapper-image">
+        <div class="div-block-46 align-center-mobile">
+          <div class="div-block-47">
+            <h2 class="montserrat-800-32-39 uppercase font-color-ffa800 text-aligh-center">Підсумуємо?</h2>
+            <p class="montserrat-500-22-30 black-violet align-center">Олена відповідально ставиться до своєї безпеки у цифровому світі, тому користується менеджером паролів і змінює свій головний пароль щопівроку. Чи дотрималася вона цього разу усіх рекомендацій з безпеки?</p>
+          </div>
+          <div class="div-block-49">
+            <a href="#" id="slide-25-btn-1" class="slide-25-button w-button">Так, Олена створила надійний пароль</a>
+            <a href="#" id="slide-25-btn-2" class="slide-25-button w-button">Ні, новий пароль не є надійним</a>
+            <a href="#slide25-incorrect" data-w-id="49c35472-5cfa-eb0a-a73a-5c8dfdd77aa5" class="slide-25-button-1-mobile w-button">Так, Олена створила надійний пароль</a>
+            <a href="#slide25-correct" data-w-id="1b1866ce-2a75-bd95-c37c-583e900da8db" class="slide-25-button-2-mobile w-button">Ні, новий пароль не є надійним</a>
+          </div><img src="images/m2slide25-assets.png" loading="lazy" sizes="(max-width: 991px) 100vw, (max-width: 1279px) 81vw, (max-width: 1439px) 1036.796875px, (max-width: 1919px) 1258.1875px, 1398px" srcset="images/m2slide25-assets-p-500.png 500w, images/m2slide25-assets-p-800.png 800w, images/m2slide25-assets.png 1058w" alt="" class="m3slie7">
+        </div><img src="images/image_7.png" loading="lazy" sizes="100vw" srcset="images/image_7-p-500.png 500w, images/image_7.png 658w" alt="" class="image-29-copy">
+      </div>
+    </section>
+    <section id="slide-25-feedback-ID" data-w-id="53c4f4fc-106d-31e9-f186-30d886217acc" class="slide-25-feedback">
+      <div id="slide25-correct" class="content-wrapper-correct">
+        <div class="div-block-50">
+          <h2 class="montserrat-800-32-39 uppercase"><span class="highlight-word-2">Супер!</span> Ви були уважні упродовж модуля</h2>
+          <p class="montserrat-500-22-30 black-violet">Плюсик у карму Олені за використання менеджера паролів і регулярну зміну головного пароля. Вона також не забула використати комбінацію літер, цифр і спецсимволів.</p>
+          <p class="montserrat-700-22-30 black-violet">Та вона не врахувала, що надійний пароль:</p>
+          <ul role="list" class="montserrat-500-22-30 black-violet">
+            <li>щонайменше має містити 12 символів</li>
+            <li>не повинен містити особисту інформацію (як-от ім’я у цьому випадку)</li>
+          </ul>
+        </div>
+        <div class="div-block-51"><img src="images/slide26.png" loading="lazy" sizes="100vw" srcset="images/slide26-p-500.png 500w, images/slide26.png 786w" alt="" class="image-30"></div>
+      </div>
+      <div id="slide25-incorrect" class="content-wrapper-incorrect">
+        <div class="div-block-50">
+          <h2 class="montserrat-800-32-39 uppercase"><span class="highlight-word-2">Хм,</span> варто повторити вимоги безпеки</h2>
+          <p class="montserrat-500-22-30 black-violet">Безумовно плюсик у карму Олені за використання менеджера паролів і регулярну зміну головного пароля. Вона також не забула використати комбінацію літер, цифр і спецсимволів.</p>
+          <p class="montserrat-700-22-30 black-violet">Та вона не врахувала, що надійний пароль:</p>
+          <ul role="list" class="montserrat-500-22-30 black-violet">
+            <li>щонайменше має містити 12 символів</li>
+            <li>не повинен містити особисту інформацію (як-от ім’я у цьому випадку)</li>
+          </ul>
+        </div>
+        <div class="div-block-51"><img src="images/slide27.png" loading="lazy" sizes="100vw" srcset="images/slide27-p-500.png 500w, images/slide27.png 786w" alt="" class="image-30"></div>
+      </div>
+    </section>
+    <section id="m2section7" class="text-img_section_2 section">
+      <div class="img-text direction-up">
+        <div class="img-text__text-block3">
+          <h2 class="montserrat-800-32-39 uppercase">Вітаємо із завершенням<span class="highlight-word"> </span><span class="highlight">Модуля 2</span></h2>
+          <p class="montserrat-500-22-30 dark-violet">У наступному модулі поділимося з вами знаннями і практичними рекомендаціями із забезпечення безпеки та відновлення даних у разі їх втрати</p>
+          <a href="#" class="final_button w-button">Вийти</a>
+        </div><img src="images/image_4.png" loading="lazy" sizes="100vw" srcset="images/image_4-p-500.png 500w, images/image_4.png 560w" alt="" class="img-text__img2"><img src="images/m2-final-image-tablet.png" loading="lazy" alt="" class="final-small-image">
+      </div>
+    </section>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=676056e94453a0e6fa37bfbb" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/gh/Ferragone/webflow-crdf-bundle@main/webflow.bundle.scorm1.2.prod.js" data-prod=""></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.21/jquery.scrollify.min.js" integrity="sha512-UyX8JsMsNRW1cYl8BoxpcamonpwU2y7mSTsN0Z52plp7oKo1u92Xqfpv6lOlTyH3yiMXK+gU1jw0DVCsPTfKew==" crossorigin="anonymous"></script>
+  <script>
+	if ($(window).width() > 767) {
+  $(function() {
+    $.scrollify({
+      section : ".section",
+      setHeights: false,
+    });
+  });
+  };
+  $('.dropdown_toggle').on('click', function() {
+        // Додаємо клас 'dropdown_visited' до елемента, на який було клікнуто
+        $(this).addClass('dropdown_visited');
+       $(this).toggleClass('dropdown_open');
+    });
+    $("#menu-btn-1").on("click", function(){
+	$.scrollify.move("#1");
+})
+const buttons = document.querySelectorAll('.slide-25-button');
+buttons.forEach(button => {
+    button.addEventListener('click', () => {
+    	buttons.forEach(btn => btn.classList.remove('selected'));
+        button.classList.add('selected');
+    });
+});
+$("#slide-25-btn-1").on("click", function() {
+	$("#slide-25-btn-1").addClass("Visited");
+   $(".slide-25-feedback").css('display', 'flex');
+   $(".slide-25-feedback").addClass("section");
+   $('.slide-25-feedback').css('height', '100vh');
+   $('.content-wrapper-incorrect').css("display", "flex");
+   $(".content-wrapper-correct").css("display", "none");
+   $.scrollify.update();
+   $.scrollify.next();
+})
+$("#slide-25-btn-2").on("click", function() {
+	$("#slide-25-btn-2").addClass("Visited");
+   $(".slide-25-feedback").css('display', 'flex');
+   $(".slide-25-feedback").addClass("section");
+   $('.slide-25-feedback').css('height', '100vh');
+   $('.content-wrapper-incorrect').css("display", "none");
+   $(".content-wrapper-correct").css("display", "flex");
+   $.scrollify.update();
+   $.scrollify.next();
+})
+</script>
+  <script>
+ (function() {
+  let audio = document.querySelector('audio');
+  audio.play();
+  const onOffButton = document.querySelector(".switch");
+  function switchButton() {
+    let audio = document.querySelector('audio');
+    onOffButton.classList.toggle("on");
+    if (onOffButton.classList.contains('on')) {
+        audio.play();
+    } else {
+        audio.pause();
+    }
+  }
+  onOffButton.addEventListener("click", switchButton);
+})();
+</script>
+  <script>
+$("#m2item1").on("click", function() {
+    $.scrollify.update();
+    $.scrollify.move("#2");
+});
+$("#m2item2").on("click", function() {
+    $.scrollify.update();
+    $.scrollify.move("#6");
+});
+$("#m2item3").on("click", function() {
+    $.scrollify.update();
+    $.scrollify.move("#12");
+});
+$("#m2item4").on("click", function() {
+    $.scrollify.update();
+    $.scrollify.move("#15");
+});
+$("#m2item5").on("click", function() {
+    $.scrollify.update();
+    $.scrollify.move("#17");
+});
+$("#m2item6").on("click", function() {
+    $.scrollify.update();
+    $.scrollify.move("#25");
+});
+</script>
+  <script>
+// Оновлюємо висоту елемента для мобільних пристроїв
+let lastHeight = window.innerHeight;
+function setFullHeight() {
+  const newHeight = window.innerHeight;
+  // Оновлюємо тільки якщо висота змінилася
+  if (newHeight !== lastHeight) {
+    lastHeight = newHeight;
+    document.documentElement.style.setProperty('--vh', `${newHeight * 0.01}px`);
+     $.scrollify.update(); // Оновлюємо Scrollify
+  }
+}
+// Викликаємо функцію при зміні розміру вікна або орієнтації екрану
+window.addEventListener('resize', setFullHeight);
+window.addEventListener('orientationchange', setFullHeight);
+// Викликаємо функцію під час завантаження сторінки
+setFullHeight();
+</script>
+</body>
+</html>
